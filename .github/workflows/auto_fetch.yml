@@ -1,0 +1,35 @@
+name: Node-Auto-Update
+
+on:
+  schedule:
+    - cron: '0 */4 * * *' # 逻辑循环：每4小时自动运行一次
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  update-nodes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # 开启写入权限以生成 output.txt
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Extraction
+        run: python main.py
+
+      - name: Push Result
+        run: |
+          git config --global user.name "Logic-Bot"
+          git config --global user.email "bot@github.com"
+          git add output.txt
+          git commit -m "Auto-update nodes [$(date)]" || exit 0
+          git push
