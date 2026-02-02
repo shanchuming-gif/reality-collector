@@ -21,7 +21,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: pip install requests pyyaml
 
       - name: Run Extraction
         run: python main.py
