@@ -1,6 +1,12 @@
-import requests, re, socket, urllib.parse, ssl, concurrent.futures, yaml
+import requests
+import re
+import socket
+import urllib.parse
+import ssl
+import concurrent.futures
+import yaml
 
-# 1. 逻辑源
+# 1. 逻辑源：高熵原始数据池
 SOURCES = [
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-Configs/vless.txt",
@@ -9,11 +15,14 @@ SOURCES = [
 ]
 
 def check_node_tls(node_url):
-    """深度体检：模拟 TLS 握手"""
+    """
+    物理级深度探测：模拟 TLS 握手，过滤掉 -1 延迟节点
+    """
     try:
         parsed = urllib.parse.urlparse(node_url)
         server_info = parsed.netloc.split('@')[-1]
         address, port = server_info.split(':')
+        
         with socket.create_connection((address, int(port)), timeout=3) as sock:
             context = ssl.create_default_context()
             context.check_hostname = False
@@ -24,7 +33,9 @@ def check_node_tls(node_url):
         return None
 
 def parse_vless_to_clash(url, index):
-    """逻辑转换：将 VLESS 链接转换为 Clash 字典格式"""
+    """
+    逻辑转换：将 VLESS 链接转换为 Clash 字典格式，并修复参数缺失问题
+    """
     try:
         parsed = urllib.parse.urlparse(url)
         query = urllib.parse.parse_qs(parsed.query)
@@ -32,8 +43,19 @@ def parse_vless_to_clash(url, index):
         user_id = netloc[0]
         server_info = netloc[1].split(':')
         
-        return {
-            "name": f"Reality-{index}",
+        # 提取参数并处理缺失值，防止 Clash 报错
+        sni = query.get("sni", [""])[0]
+        pbk = query.get("pbk", [""])[0]
+        sid = query.get("sid", [""])[0]
+        fp = query.get("fp", ["chrome"])[0]
+        flow = query.get("flow", [""])[0]
+
+        # 如果没有 PublicKey (pbk)，该 Reality 节点逻辑上不可用，直接剔除
+        if not pbk:
+            return None
+
+        proxy = {
+            "name": f"Reality-{index:03d}",
             "type": "vless",
             "server": server_info[0],
             "port": int(server_info[1]),
@@ -41,58 +63,84 @@ def parse_vless_to_clash(url, index):
             "cipher": "auto",
             "tls": True,
             "udp": True,
-            "servername": query.get("sni", [""])[0],
+            "servername": sni,
             "network": query.get("type", ["tcp"])[0],
-            "reality-opts": {"public-key": query.get("pbk", [""])[0], "short-id": query.get("sid", [""])[0]},
-            "client-fingerprint": query.get("fp", ["chrome"])[0]
+            "reality-opts": {
+                "public-key": pbk,
+                "short-id": sid
+            },
+            "client-fingerprint": fp
         }
+        
+        # 如果有 flow 参数则加入
+        if flow:
+            proxy["flow"] = flow
+            
+        return proxy
     except:
         return None
 
 def main():
+    print("--- 启动自动化脱盐程序 ---")
     raw_content = ""
     for url in SOURCES:
-        try: raw_content += requests.get(url, timeout=10).text
-        except: continue
+        try:
+            res = requests.get(url, timeout=10)
+            raw_content += res.text
+        except:
+            continue
     
+    # 提取节点并去重
     raw_nodes = list(set(re.findall(r'vless://.*reality.*', raw_content, re.IGNORECASE)))
-    
-    # 物理脱盐：多线程探测
+    print(f"原始矿石: {len(raw_nodes)} 个节点。开始物理探测...")
+
+    # 多线程探测存活节点
     valid_nodes = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
         results = list(executor.map(check_node_tls, raw_nodes))
         valid_nodes = [r for r in results if r]
 
-    # 生成 v2rayN 用的列表
+    # 1. 输出 v2rayN 列表
     with open("output.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(valid_nodes))
 
-    # 生成 Clash 用的 YAML
+    # 2. 输出 Clash YAML
     proxies = []
     for i, url in enumerate(valid_nodes):
         p = parse_vless_to_clash(url, i)
-        if p: proxies.append(p)
+        if p:
+            proxies.append(p)
 
     clash_config = {
-        "port": 7890, "allow-lan": True, "mode": "rule", "log-level": "info",
+        "port": 7890,
+        "allow-lan": True,
+        "mode": "rule",
+        "log-level": "info",
         "proxies": proxies,
         "proxy-groups": [
             {
                 "name": "自动选择",
-                "type": "url-test", # 核心：Clash 自动挑选延迟最低的节点
+                "type": "url-test",
                 "proxies": [p["name"] for p in proxies],
                 "url": "http://www.gstatic.com/generate_204",
                 "interval": 300
             },
-            {"name": "手动切换", "type": "select", "proxies": ["自动选择"] + [p["name"] for p in proxies]}
+            {
+                "name": "手动切换",
+                "type": "select",
+                "proxies": ["自动选择"] + [p["name"] for p in proxies]
+            }
         ],
-        "rules": ["MATCH,自动选择"]
+        "rules": [
+            "MATCH,自动选择"
+        ]
     }
 
     with open("clash_config.yaml", "w", encoding="utf-8") as f:
         yaml.dump(clash_config, f, allow_unicode=True, sort_keys=False)
-
-    print(f"处理完成：保留存活节点 {len(valid_nodes)} 个")
+    
+    print(f"--- 逻辑处理完毕 ---")
+    print(f"最终产出: {len(proxies)} 个可用节点已存入 clash_config.yaml")
 
 if __name__ == "__main__":
     main()
