@@ -1,54 +1,65 @@
-import requests, re, socket, urllib.parse, ssl, concurrent.futures
+import requests
+import re
+import socket
+import urllib.parse
 
 # 1. 逻辑源：高熵原始数据池
 SOURCES = [
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-Configs/vless.txt",
-    "https://raw.githubusercontent.com/NiREvil/vless/main/sub/v2rayng-wg.txt",
-    "https://raw.githubusercontent.com/ts-sf/v2ray-configs/main/All_Configs_Sub.txt"
+    "https://raw.githubusercontent.com/NiREvil/vless/main/sub/v2rayng-wg.txt"
 ]
 
-def check_node_tls(node_url):
+def check_node(node_url):
     """
-    深度体检：模拟 TLS 握手（最接近 Real Delay 逻辑）
+    物理级体检：解析节点并尝试 TCP 握手
     """
     try:
+        # 解析 VLESS 链接逻辑
         parsed = urllib.parse.urlparse(node_url)
+        # 提取服务器地址和端口
         server_info = parsed.netloc.split('@')[-1]
         address, port = server_info.split(':')
         
-        # 尝试建立物理连接
-        with socket.create_connection((address, int(port)), timeout=3) as sock:
-            # 模拟 TLS 握手（核心步骤）
-            context = ssl.create_default_context()
-            context.check_hostname = False
-            context.verify_mode = ssl.CERT_NONE
-            with context.wrap_socket(sock, server_hostname=address) as ssock:
-                return node_url
+        # 尝试建立 TCP 连接，超时设为 2.5 秒（追求效率与准确的平衡）
+        socket.setdefaulttimeout(2.5)
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.connect((address, int(port)))
+        return True
     except:
-        return None
+        return False
 
-def main():
-    print("开始抓取节点...")
-    raw_content = ""
+def logical_desalt():
+    print("开始逻辑脱盐：正在抓取原始节点...")
+    raw_nodes = []
     for url in SOURCES:
-        try: raw_content += requests.get(url, timeout=10).text
-        except: continue
+        try:
+            res = requests.get(url, timeout=10)
+            # 筛选 Reality 特征节点
+            nodes = re.findall(r'vless://.*reality.*', res.text, re.IGNORECASE)
+            raw_nodes.extend(nodes)
+        except:
+            continue
     
-    # 提取符合 Reality 特征的节点
-    raw_nodes = list(set(re.findall(r'vless://.*reality.*', raw_content, re.IGNORECASE)))
-    print(f"原始节点: {len(raw_nodes)}，开始深度体检...")
+    unique_nodes = list(set(raw_nodes))
+    print(f"抓取完成，共发现 {len(unique_nodes)} 个潜在节点。开始自动体检...")
 
-    # 使用多线程加速（避免 GitHub Actions 超时）
+    # 2. 自动化质检：剔除失效节点
     valid_nodes = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
-        results = list(executor.map(check_node_tls, raw_nodes))
-        valid_nodes = [r for r in results if r]
+    for index, node in enumerate(unique_nodes):
+        if check_node(node):
+            valid_nodes.append(node)
+            print(f"[{index+1}] 节点存活：通过检测")
+        else:
+            print(f"[{index+1}] 节点死亡：逻辑剔除")
 
-    # 结果固化
+    # 3. 输出负熵结果
     with open("output.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(valid_nodes))
-    print(f"物理脱盐完成：存活 {len(valid_nodes)} 个节点。")
+    
+    print(f"--- 逻辑处理完毕 ---")
+    print(f"原始节点: {len(unique_nodes)} | 存活节点: {len(valid_nodes)}")
+    print(f"可用节点已固化至 output.txt")
 
 if __name__ == "__main__":
-    main()
+    logical_desalt()
