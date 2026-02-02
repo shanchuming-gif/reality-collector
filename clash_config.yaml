@@ -3,847 +3,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: Reality-0
-  type: vless
-  server: 212.233.73.212
-  port: 8443
-  uuid: 0ff8dbfb-d7ee-4a19-b22d-b652a8b52e22
-  cipher: auto
-  tls: true
-  udp: true
-  servername: m.vk.ru
-  network: tcp
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: f4b4a6365558ea2e
-  client-fingerprint: chrome
-- name: Reality-1
-  type: vless
-  server: eng14.netliberated.org
-  port: 443
-  uuid: 0bb6dff2-0029-4b81-8c81-4fc70fae1ed9
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-2
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-3
-  type: vless
-  server: 15.204.97.154
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-4
-  type: vless
-  server: 151.236.15.72
-  port: 444
-  uuid: faaaf16e-188e-42f2-bcc1-17feadc84fad
-  cipher: auto
-  tls: true
-  udp: true
-  servername: opensuse.org
-  network: tcp
-  reality-opts:
-    public-key: FOSoac3DIrSrCUcBtQA-BdHMxCtqe2CYCpdvGxKMiUw
-    short-id: 82b9ca5d8d39ba72
-  client-fingerprint: chrome
-- name: Reality-5
-  type: vless
-  server: 47.253.226.114
-  port: 443
-  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-6
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-7
-  type: vless
-  server: 217.114.15.157
-  port: 443
-  uuid: e0ff43e6-76ed-42f3-a1f0-1bbd5f8ee59d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: github.com
-  network: xhttp
-  reality-opts:
-    public-key: Y2gKx6Wvg0kWTSwtDZUMwoig1x9sxhx4kUg_VrYnUXc
-    short-id: bcbfa46faa4370d2
-  client-fingerprint: chrome
-- name: Reality-8
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-9
-  type: vless
-  server: 95.163.182.181
-  port: 443
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-  cipher: auto
-  tls: true
-  udp: true
-  servername: api-maps.yandex.ru
-  network: tcp
-  reality-opts:
-    public-key: 5bGFIWSo4vlrd9Tv1yFcpdpSjrjYYN20SOWHYfighHc
-    short-id: e5f67890
-  client-fingerprint: chrome
-- name: Reality-10
-  type: vless
-  server: 51.158.206.98
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-11
-  type: vless
-  server: 217.114.15.157
-  port: 443
-  uuid: e0ff43e6-76ed-42f3-a1f0-1bbd5f8ee59d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: github.com
-  network: xhttp
-  reality-opts:
-    public-key: Y2gKx6Wvg0kWTSwtDZUMwoig1x9sxhx4kUg_VrYnUXc
-    short-id: bcbfa46faa4370d2
-  client-fingerprint: chrome
-- name: Reality-12
-  type: vless
-  server: 137.184.218.169
-  port: 36925
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-13
-  type: vless
-  server: 51.158.206.19
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-14
-  type: vless
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  port: 443
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-  cipher: auto
-  tls: true
-  udp: true
-  servername: i2pd.website
-  network: tcp
-  reality-opts:
-    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-    short-id: 55e6af1a35e64a98
-  client-fingerprint: chrome
-- name: Reality-15
-  type: vless
-  server: 51.158.206.34
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-16
-  type: vless
-  server: 146.190.85.213
-  port: 45989
-  uuid: fa7ea4ac-1ed6-467a-ae18-2099ed2bb4ae
-  cipher: auto
-  tls: true
-  udp: true
-  servername: apple.com
-  network: tcp
-  reality-opts:
-    public-key: YmPBYhQjKnaKKGDHQb6xxjvPw3nenm59T1ssG0KFcj0
-    short-id: 1f13df2cb7
-  client-fingerprint: chrome
-- name: Reality-17
-  type: vless
-  server: 51.158.206.98
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-18
-  type: vless
-  server: 84.201.131.235
-  port: 443
-  uuid: f7a69294-6d14-0db1-a813-b4a4b4a1913a
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ads.x5.ru
-  network: grpc
-  reality-opts:
-    public-key: CDnTaL6u0DZdCODpV59EoJA6qqJlVbP3M8bwEXiHFFs
-    short-id: '77'
-  client-fingerprint: chrome
-- name: Reality-19
-  type: vless
-  server: dlc-ger2.persianpinggame.ir
-  port: 443
-  uuid: dc4651a0-39c9-4e09-81f9-ef95aa993c8e
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-20
-  type: vless
-  server: sw.vles.space
-  port: 52253
-  uuid: afa7cc47-243c-477b-a526-6262d5b75353
-  cipher: auto
-  tls: true
-  udp: true
-  servername: web.max.ru
-  network: xhttp
-  reality-opts:
-    public-key: PvX3pEDYN8SYLmMuNVpnuPTB_V5xHs3HKtz3DcHUKz4
-    short-id: aabbccdd
-  client-fingerprint: chrome
-- name: Reality-21
-  type: vless
-  server: 212.111.84.187
-  port: 8443
-  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
-  cipher: auto
-  tls: true
-  udp: true
-  servername: m.vk.ru
-  network: tcp
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 887c0d72e771a934
-  client-fingerprint: chrome
-- name: Reality-22
-  type: vless
-  server: 212.111.84.64
-  port: 8443
-  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
-  cipher: auto
-  tls: true
-  udp: true
-  servername: m.vk.ru
-  network: tcp
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: 205748bc0f24a747
-  client-fingerprint: chrome
-- name: Reality-23
-  type: vless
-  server: 46.225.75.177
-  port: 443
-  uuid: c65ac848-31fa-42ee-b152-b65276378111
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: _R5PqWhttPJp69I0cg4UAgGoeX80Y-wL4xdalaHC7SQ
-    short-id: 31e7200536a1ad45
-  client-fingerprint: chrome
-- name: Reality-24
-  type: vless
-  server: 217.114.15.157
-  port: 443
-  uuid: e0ff43e6-76ed-42f3-a1f0-1bbd5f8ee59d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: github.com
-  network: xhttp
-  reality-opts:
-    public-key: Y2gKx6Wvg0kWTSwtDZUMwoig1x9sxhx4kUg_VrYnUXc
-    short-id: bcbfa46faa4370d2
-  client-fingerprint: chrome
-- name: Reality-25
-  type: vless
-  server: 57.129.53.181
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-26
-  type: vless
-  server: 15.204.97.172
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-27
-  type: vless
-  server: netherlands96.zentrolamia.xyz
-  port: 443
-  uuid: 9c567b10-876a-47cc-a4de-63c40f098f10
-  cipher: auto
-  tls: true
-  udp: true
-  servername: netherlands96.zentrolamia.xyz
-  network: tcp
-  reality-opts:
-    public-key: cslJD2Mw_-UQgSLkY8wPUwV8SKtDr0fci5-9HVdwRnw
-    short-id: ''
-  client-fingerprint: firefox
-- name: Reality-28
-  type: vless
-  server: kz.accesspoints.cloakify.app
-  port: 38339
-  uuid: 481c5606-b586-44d7-bc2e-d8ef30d67f62
-  cipher: auto
-  tls: true
-  udp: true
-  servername: dl.google.com
-  network: tcp
-  reality-opts:
-    public-key: o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA
-    short-id: e16883e511
-  client-fingerprint: chrome
-- name: Reality-29
-  type: vless
-  server: 15.204.97.175
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-30
-  type: vless
-  server: 57.129.53.182
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-31
-  type: vless
-  server: 188.34.193.153
-  port: 443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-    short-id: 7cad5040
-  client-fingerprint: chrome
-- name: Reality-32
-  type: vless
-  server: 93.115.25.42
-  port: 8443
-  uuid: ca5ab635-fbaa-4ff2-8283-3954b92ae477
-  cipher: auto
-  tls: true
-  udp: true
-  servername: tradingview.com
-  network: tcp
-  reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
-  client-fingerprint: chrome
-- name: Reality-33
-  type: vless
-  server: 212.111.84.187
-  port: 8443
-  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
-  cipher: auto
-  tls: true
-  udp: true
-  servername: m.vk.ru
-  network: tcp
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 887c0d72e771a934
-  client-fingerprint: chrome
-- name: Reality-34
-  type: vless
-  server: 51.158.206.93
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-35
-  type: vless
-  server: 140.238.100.35
-  port: 40721
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: df8611c07d
-  client-fingerprint: chrome
-- name: Reality-36
-  type: vless
-  server: 45.12.143.191
-  port: 20329
-  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo
-    short-id: 4602ee9f9f36
-  client-fingerprint: chrome
-- name: Reality-37
-  type: vless
-  server: 15.204.97.164
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-38
-  type: vless
-  server: 51.158.206.96
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-39
-  type: vless
-  server: deu196.unboundaccess.org
-  port: 443
-  uuid: f788e136-b245-4617-9d41-b505c7f41ef9
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.bing.com
-  network: tcp
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-40
-  type: vless
-  server: 181.214.231.216
-  port: 443
-  uuid: a918d35f-14f2-4464-95e1-aee3bb69802e
-  cipher: auto
-  tls: true
-  udp: true
-  servername: vpnspacev.com
-  network: tcp
-  reality-opts:
-    public-key: zjv3djnsCKDqP7zZFIrJ9ImzgdPE3zFMCYrOvdWqkEE
-    short-id: 06bf5b24acb9•⭐ 『 🌟https://t.me/V2rayBaaz 』•⭐
-  client-fingerprint: chrome
-- name: Reality-41
-  type: vless
-  server: usa26.clearorbitllc.com
-  port: 443
-  uuid: 022af852-49c7-4b5e-a13b-6877bcfe30a3
-  cipher: auto
-  tls: true
-  udp: true
-  servername: usa26.clearorbitllc.com
-  network: tcp
-  reality-opts:
-    public-key: uG51OJ4QHrSFthqOCL3Ctqxy4plPkeUyRGDmF4V7dFo
-    short-id: c6de8980
-  client-fingerprint: firefox
-- name: Reality-42
-  type: vless
-  server: dd.openaccessnode.com
-  port: 503
-  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
-  cipher: auto
-  tls: true
-  udp: true
-  servername: refersion.com
-  network: tcp
-  reality-opts:
-    public-key: aNLPNNyjIC7QYLe7MpF4nxxHhO421dBSZaQgsDd1szs
-    short-id: 1d64e9805b4f9ae3
-  client-fingerprint: chrome
-- name: Reality-43
-  type: vless
-  server: 51.158.206.29
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-44
-  type: vless
-  server: 77.73.232.61
-  port: 19747
-  uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
-    short-id: '2001'
-  client-fingerprint: chrome
-- name: Reality-45
-  type: vless
-  server: midorinote.ru
-  port: 8443
-  uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
-  cipher: auto
-  tls: true
-  udp: true
-  servername: tradingview.com
-  network: tcp
-  reality-opts:
-    public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
-    short-id: f7aa9e61197d3ac6
-  client-fingerprint: chrome
-- name: Reality-46
-  type: vless
-  server: 188.253.26.39
-  port: 442
-  uuid: e929f51d-5a95-5432-b66f-cfe725ea1f61
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: T_gyZwngrYUe24q6-mieGT9WJfzja0PQad_y_SnhBk0
-    short-id: 6ac998b514
-  client-fingerprint: chrome
-- name: Reality-47
-  type: vless
-  server: 137.184.218.169
-  port: 36925
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-48
-  type: vless
-  server: 107.174.82.65
-  port: 32068
-  uuid: bd7444d1-5f08-43bd-a332-f9058ad15010
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: QNcdT48fsgPz6WLCLTUmfb2pGG_DYAYeYSVJ2Q4Erwc
-    short-id: 684de91a
-  client-fingerprint: chrome
-- name: Reality-49
-  type: vless
-  server: 185.177.238.144
-  port: 2083
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  cipher: auto
-  tls: true
-  udp: true
-  servername: apple.com
-  network: grpc
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: 6da16b1335651b38
-  client-fingerprint: chrome
-- name: Reality-50
-  type: vless
-  server: 94.232.247.168
-  port: 41360
-  uuid: e16a35ea-6715-4e75-9845-d20358bd0876
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
-    short-id: 1aab45
-  client-fingerprint: chrome
-- name: Reality-51
-  type: vless
-  server: 217.16.25.173
-  port: 443
-  uuid: 0bdf406a-84a5-46a0-baf8-c1d85ad30d6b
-  cipher: auto
-  tls: true
-  udp: true
-  servername: eh.vk.ru
-  network: tcp
-  reality-opts:
-    public-key: mhS5tgy6bzzFw_sOpdAGuKVS5MF1e0FjzimA92KnPUE
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-52
-  type: vless
-  server: 38.60.212.251
-  port: 29059
-  uuid: d706bf16-124a-417b-aaa0-0d6d5efd58fd
-  cipher: auto
-  tls: true
-  udp: true
-  servername: mensura.cdn-apple.com
-  network: tcp
-  reality-opts:
-    public-key: V_eMkcHXf237wGyfggMHHRvQqw51rW1UJPEIw_T2IE4
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: Reality-53
-  type: vless
-  server: 15.204.97.195
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-54
-  type: vless
-  server: 188.253.26.39
-  port: 442
-  uuid: e929f51d-5a95-5432-b66f-cfe725ea1f61
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: T_gyZwngrYUe24q6-mieGT9WJfzja0PQad_y_SnhBk0
-    short-id: 6ac998b514
-  client-fingerprint: chrome
-- name: Reality-55
-  type: vless
-  server: 157.173.127.224
-  port: 443
-  uuid: bec44ac3-a662-4179-a9dd-2aa881706dde
-  cipher: auto
-  tls: true
-  udp: true
-  servername: analytics.google.com
-  network: tcp
-  reality-opts:
-    public-key: Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ
-    short-id: aba7bc9a
-  client-fingerprint: chrome
-- name: Reality-56
-  type: vless
-  server: midorinote.ru
-  port: 8443
-  uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
-  cipher: auto
-  tls: true
-  udp: true
-  servername: tradingview.com
-  network: tcp
-  reality-opts:
-    public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
-    short-id: f7aa9e61197d3ac6
-  client-fingerprint: chrome
-- name: Reality-57
-  type: vless
-  server: tbankru.outlinekeys.net
-  port: 443
-  uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
-  cipher: auto
-  tls: true
-  udp: true
-  servername: tbankru.outlinekeys.net
-  network: tcp
-  reality-opts:
-    public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-58
-  type: vless
-  server: 144.31.111.130
-  port: 443
-  uuid: a384c715-aeb5-45e8-859b-f687ca6c083f
-  cipher: auto
-  tls: true
-  udp: true
-  servername: google.com
-  network: tcp
-  reality-opts:
-    public-key: wBrGfTI9PaFf966aN6KaCY0cL6QRLlop4nzNa6bJsiQ
-    short-id: 9f35da6c9412b832
-  client-fingerprint: chrome
-- name: Reality-59
-  type: vless
-  server: 15.204.97.216
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-60
+- name: Reality-000
   type: vless
   server: 57.129.53.180
   port: 23576
@@ -857,9 +17,10 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-61
+  flow: xtls-rprx-vision
+- name: Reality-001
   type: vless
-  server: 15.204.97.206
+  server: 51.158.206.98
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   cipher: auto
@@ -871,217 +32,8 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-62
-  type: vless
-  server: iran.mr-cloud.ir
-  port: 443
-  uuid: 06d4887e-9e2c-45a3-a0ac-309f4e47f047
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.speedtest.net
-  network: tcp
-  reality-opts:
-    public-key: __6BhtO3Rhjw4wnAmzklhquVvIngjhfnB8dhDVtj0Vs
-    short-id: 275f34
-  client-fingerprint: chrome
-- name: Reality-63
-  type: vless
-  server: 85.158.110.62
-  port: 8443
-  uuid: f4d8b865-a620-4e1d-802a-6bcf5a48c49e
-  cipher: auto
-  tls: true
-  udp: true
-  servername: google.com
-  network: tcp
-  reality-opts:
-    public-key: sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-64
-  type: vless
-  server: 94.232.247.168
-  port: 41360
-  uuid: e16a35ea-6715-4e75-9845-d20358bd0876
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
-    short-id: 1aab45
-  client-fingerprint: chrome
-- name: Reality-65
-  type: vless
-  server: 80.240.23.101
-  port: 443
-  uuid: 97d53a59-918e-45fc-bc5d-ba487f090cc1
-  cipher: auto
-  tls: true
-  udp: true
-  servername: hundleymechanical.com
-  network: xhttp
-  reality-opts:
-    public-key: HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o
-    short-id: 008c74
-  client-fingerprint: chrome
-- name: Reality-66
-  type: vless
-  server: 84.17.62.67
-  port: 8443
-  uuid: 146e8a2b-283d-4f06-86ec-0608e2478265
-  cipher: auto
-  tls: true
-  udp: true
-  servername: tradingview.com
-  network: tcp
-  reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: 04bf0403f96e5b4b
-  client-fingerprint: chrome
-- name: Reality-67
-  type: vless
-  server: 46.246.98.74
-  port: 443
-  uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
-  cipher: auto
-  tls: true
-  udp: true
-  servername: learn.microsoft.com
-  network: tcp
-  reality-opts:
-    public-key: nBJICh1KzfMblaXtSxpTiPIHGg2TKP5PF8nq-89Q6jg
-    short-id: 6ed3324b
-  client-fingerprint: chrome
-- name: Reality-68
-  type: vless
-  server: 51.158.206.86
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-69
-  type: vless
-  server: 109.73.206.90
-  port: 443
-  uuid: 4eff2388-2092-4b0a-aa74-0e464889ffaf
-  cipher: auto
-  tls: true
-  udp: true
-  servername: google.com
-  network: tcp
-  reality-opts:
-    public-key: cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-70
-  type: vless
-  server: 157.180.79.18
-  port: 2053
-  uuid: 24497ec6-9244-4781-869d-3b48dbb13361
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: XhVQYDFxZdYohty3YEqn7fuvJMJmq4e79477s81vWHc
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-71
-  type: vless
-  server: 212.111.85.1
-  port: 8443
-  uuid: 80115515-eb00-4d28-8f02-66b3e3e6a515
-  cipher: auto
-  tls: true
-  udp: true
-  servername: m.vk.ru
-  network: tcp
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 1929ef620e9b34f5
-  client-fingerprint: chrome
-- name: Reality-72
-  type: vless
-  server: 146.19.80.222
-  port: 443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-    short-id: 7cad5040
-  client-fingerprint: chrome
-- name: Reality-73
-  type: vless
-  server: 5.199.173.116
-  port: 443
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  cipher: auto
-  tls: true
-  udp: true
-  servername: apple.com
-  network: tcp
-  reality-opts:
-    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
-    short-id: 00684d2eae2cdd16
-  client-fingerprint: chrome
-- name: Reality-74
-  type: vless
-  server: 80.249.131.7
-  port: 443
-  uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
-  cipher: auto
-  tls: true
-  udp: true
-  servername: wa.sfasti.ru
-  network: tcp
-  reality-opts:
-    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
-    short-id: 16895459a2c7768d
-  client-fingerprint: firefox
-- name: Reality-75
-  type: vless
-  server: 85.158.110.62
-  port: 8443
-  uuid: 86be7d6e-9dda-433b-8ea8-0c44a7dfcfbd
-  cipher: auto
-  tls: true
-  udp: true
-  servername: google.com
-  network: tcp
-  reality-opts:
-    public-key: sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-76
-  type: vless
-  server: 51.158.206.34
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-77
+  flow: xtls-rprx-vision
+- name: Reality-002
   type: vless
   server: 2.56.125.209
   port: 49868
@@ -1095,973 +47,50 @@ proxies:
     public-key: joEKL4Itljxodt1SOe1itSMrAH9bk_udpPtXgIjdu10
     short-id: 6d638e
   client-fingerprint: chrome
-- name: Reality-78
+- name: Reality-003
   type: vless
-  server: hinet2.gzcloud.shop
-  port: 20519
-  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+  server: 15.204.97.195
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   cipher: auto
   tls: true
   udp: true
-  servername: buylite.music.apple.com
+  servername: fuck.rkn
   network: tcp
   reality-opts:
-    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-    short-id: 4b070735
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
   client-fingerprint: chrome
-- name: Reality-79
+  flow: xtls-rprx-vision
+- name: Reality-004
   type: vless
-  server: 5.182.38.91
-  port: 17267
-  uuid: 1c7fcc38-e6be-43c5-875f-b8de2516b9f2
+  server: 94.232.247.168
+  port: 41360
+  uuid: e16a35ea-6715-4e75-9845-d20358bd0876
   cipher: auto
   tls: true
   udp: true
   servername: yahoo.com
   network: tcp
   reality-opts:
-    public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk
-    short-id: 4ae260
+    public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
+    short-id: 1aab45
   client-fingerprint: chrome
-- name: Reality-80
+- name: Reality-005
   type: vless
-  server: 188.34.193.153
-  port: 443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-    short-id: 7cad5040
-  client-fingerprint: chrome
-- name: Reality-81
-  type: vless
-  server: 51.158.206.97
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-82
-  type: vless
-  server: 5.182.36.56
-  port: 45886
-  uuid: 8338171d-2ea7-4015-bdea-492f3d5d4e60
+  server: 45.89.109.25
+  port: 18278
+  uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
   cipher: auto
   tls: true
   udp: true
   servername: yahoo.com
   network: tcp
   reality-opts:
-    public-key: zJeLZDPHoHMcAzBJh38tSavofNlkBrpADFx9jVVPil0
-    short-id: 94f9
+    public-key: 8Fglzc7t2LS4r1vQWlVMNe_EsFdhMawlxeDacbhmiAg
+    short-id: f0
   client-fingerprint: chrome
-- name: Reality-83
-  type: vless
-  server: 15.204.97.148
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-84
-  type: vless
-  server: 51.158.206.25
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-85
-  type: vless
-  server: 51.158.206.12
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-86
-  type: vless
-  server: 147.45.60.6
-  port: 443
-  uuid: beab408c-6aa3-43b9-a1ca-e6fabba5d8e7
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: rTp9PEn36FtQFu32jWAPO3r-e1W2px3RGSuhR-L1DVM
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-87
-  type: vless
-  server: 176.120.72.63
-  port: 38339
-  uuid: 481c5606-b586-44d7-bc2e-d8ef30d67f62
-  cipher: auto
-  tls: true
-  udp: true
-  servername: dl.google.com
-  network: tcp
-  reality-opts:
-    public-key: o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA
-    short-id: e16883e511
-  client-fingerprint: chrome
-- name: Reality-88
-  type: vless
-  server: 49.13.135.58
-  port: 443
-  uuid: 18e82ee0-3b88-48d1-9292-484c8051f690
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-89
-  type: vless
-  server: 45.139.26.152
-  port: 7443
-  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-  cipher: auto
-  tls: true
-  udp: true
-  servername: eh.vk.com
-  network: tcp
-  reality-opts:
-    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
-    short-id: fd88bd27db4cc661
-  client-fingerprint: chrome
-- name: Reality-90
-  type: vless
-  server: 188.253.26.39
-  port: 442
-  uuid: e929f51d-5a95-5432-b66f-cfe725ea1f61
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: T_gyZwngrYUe24q6-mieGT9WJfzja0PQad_y_SnhBk0
-    short-id: 6ac998b514
-  client-fingerprint: chrome
-- name: Reality-91
-  type: vless
-  server: 57.129.49.1
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-92
-  type: vless
-  server: 51.158.206.26
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-93
-  type: vless
-  server: 137.184.218.169
-  port: 36925
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-94
-  type: vless
-  server: 130.193.59.133
-  port: 51101
-  uuid: e127f737-bd10-475a-9461-e68904180eab
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yandex.ru
-  network: tcp
-  reality-opts:
-    public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
-    short-id: 4ffc99daad0f261f
-  client-fingerprint: chrome
-- name: Reality-95
-  type: vless
-  server: 195.26.224.102
-  port: 8443
-  uuid: db444bee-8212-5ff5-be40-47e1a7509eb8
-  cipher: auto
-  tls: true
-  udp: true
-  servername: vk.com
-  network: xhttp
-  reality-opts:
-    public-key: YroB2r6MeCXtjqqVx5gr45KTPCJF_kk2n0yqbHhEQSE
-    short-id: 743952dfbeb3
-  client-fingerprint: chrome
-- name: Reality-96
-  type: vless
-  server: 37.139.33.52
-  port: 443
-  uuid: faa59b1b-7e8e-48dc-a5a3-2d89ab4a7646
-  cipher: auto
-  tls: true
-  udp: true
-  servername: m.vk.com
-  network: tcp
-  reality-opts:
-    public-key: itChlzYnj7xu0-o776CzSu4BECllDKkrpsKVlNT5Fw0
-    short-id: 1de6f79b957b8b5c
-  client-fingerprint: chrome
-- name: Reality-97
-  type: vless
-  server: 51.158.206.93
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-98
-  type: vless
-  server: 15.204.97.160
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-99
-  type: vless
-  server: nl.rush-server.com
-  port: 443
-  uuid: fec17569-c5a0-4b76-924c-d20a4054f20b
-  cipher: auto
-  tls: true
-  udp: true
-  servername: findmypackets.com
-  network: tcp
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: 64c1fe36c7846400
-  client-fingerprint: chrome
-- name: Reality-100
-  type: vless
-  server: 91.99.168.213
-  port: 443
-  uuid: 14eba471-4623-4ed1-b937-f5b2206749bf
-  cipher: auto
-  tls: true
-  udp: true
-  servername: miro.com
-  network: grpc
-  reality-opts:
-    public-key: UrGT7bAn2UND3kx81QHACf_6qReN8V6_o70kZerONk4
-    short-id: 1c547814
-  client-fingerprint: chrome
-- name: Reality-101
-  type: vless
-  server: 51.158.206.93
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-102
-  type: vless
-  server: 15.204.97.198
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-103
-  type: vless
-  server: 5.181.171.2
-  port: 443
-  uuid: a87bf8a2-17a4-3054-b51e-876b5f1d0f24
-  cipher: auto
-  tls: true
-  udp: true
-  servername: speed.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-104
-  type: vless
-  server: 188.34.193.153
-  port: 443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-    short-id: 7cad5040
-  client-fingerprint: chrome
-- name: Reality-105
-  type: vless
-  server: 94.103.1.230
-  port: 443
-  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
-  cipher: auto
-  tls: true
-  udp: true
-  servername: sun6-21.userapi.com
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  client-fingerprint: qq
-- name: Reality-106
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-107
-  type: vless
-  server: 217.114.15.157
-  port: 443
-  uuid: e0ff43e6-76ed-42f3-a1f0-1bbd5f8ee59d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: github.com
-  network: xhttp
-  reality-opts:
-    public-key: Y2gKx6Wvg0kWTSwtDZUMwoig1x9sxhx4kUg_VrYnUXc
-    short-id: bcbfa46faa4370d2
-  client-fingerprint: chrome
-- name: Reality-108
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-109
-  type: vless
-  server: 103.175.79.10
-  port: 443
-  uuid: 49ed01ad-3bb4-204f-b0ff-a58f658fd618
-  cipher: auto
-  tls: true
-  udp: true
-  servername: speed.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: 4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-110
-  type: vless
-  server: 51.158.206.8
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-111
-  type: vless
-  server: 157.173.127.225
-  port: 443
-  uuid: 11beaf11-726d-4c11-8ce9-27308c1c608c
-  cipher: auto
-  tls: true
-  udp: true
-  servername: analytics.google.com
-  network: tcp
-  reality-opts:
-    public-key: v3EwzA9RIIh5Ndxm-gypRY6RCJhOpQ-2WO7KaH8nsC8
-    short-id: eab26c4a32
-  client-fingerprint: random
-- name: Reality-112
-  type: vless
-  server: 83.222.23.113
-  port: 443
-  uuid: 9a8a52d6-f24b-4f03-bf6f-f4854717f54e
-  cipher: auto
-  tls: true
-  udp: true
-  servername: google.com
-  network: tcp
-  reality-opts:
-    public-key: Jwam5OBjXf4bffZzA3IqzfcNONIMhYMgjysXPU44XFU
-    short-id: c4da507c203b545a
-  client-fingerprint: chrome
-- name: Reality-113
-  type: vless
-  server: 212.111.85.1
-  port: 8443
-  uuid: 80115515-eb00-4d28-8f02-66b3e3e6a515
-  cipher: auto
-  tls: true
-  udp: true
-  servername: m.vk.ru
-  network: tcp
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 1929ef620e9b34f5
-  client-fingerprint: chrome
-- name: Reality-114
-  type: vless
-  server: 15.204.97.226
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-115
-  type: vless
-  server: 137.184.218.169
-  port: 36925
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-116
-  type: vless
-  server: 15.204.97.146
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-117
-  type: vless
-  server: 15.204.97.159
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-118
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-119
-  type: vless
-  server: 51.158.206.81
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-121
-  type: vless
-  server: 84.252.143.25
-  port: 8443
-  uuid: 1e4649f5-f5d6-4896-9be0-4c6725d4106e
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yandex.ru
-  network: tcp
-  reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: 04bf0403f96e5b4b
-  client-fingerprint: chrome
-- name: Reality-122
-  type: vless
-  server: real-z3.sapienza-mahan.ir
-  port: 8586
-  uuid: ea980c9c-43d5-4487-90c3-aa917020b6fa
-  cipher: auto
-  tls: true
-  udp: true
-  servername: tgju.org
-  network: tcp
-  reality-opts:
-    public-key: 58yfyRJyku8oddKvCIBHz0K8LrTWKr3qTe-DMUcrWEg
-    short-id: ea0e387f2b260e0d
-  client-fingerprint: chrome
-- name: Reality-123
-  type: vless
-  server: 15.204.97.149
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-124
-  type: vless
-  server: 57.129.49.1
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-125
-  type: vless
-  server: nl1.rsvps.tech
-  port: 443
-  uuid: beab408c-6aa3-43b9-a1ca-e6fabba5d8e7
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: rTp9PEn36FtQFu32jWAPO3r-e1W2px3RGSuhR-L1DVM
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-126
-  type: vless
-  server: 212.111.84.187
-  port: 8443
-  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
-  cipher: auto
-  tls: true
-  udp: true
-  servername: m.vk.ru
-  network: tcp
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 887c0d72e771a934
-  client-fingerprint: chrome
-- name: Reality-127
-  type: vless
-  server: real-z3.sapienza-mahan.ir
-  port: 8586
-  uuid: ea980c9c-43d5-4487-90c3-aa917020b6fa
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.stackoverflow.com
-  network: tcp
-  reality-opts:
-    public-key: 58yfyRJyku8oddKvCIBHz0K8LrTWKr3qTe-DMUcrWEg
-    short-id: ea0e387f2b260e0d
-  client-fingerprint: chrome
-- name: Reality-128
-  type: vless
-  server: dlc-ger2.persianpinggame.ir
-  port: 443
-  uuid: dc4651a0-39c9-4e09-81f9-ef95aa993c8e
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: FRhlZqNN8KVTgQ-yS-7WTqNjSi9Mhy-ItbmSqcnn5EM
-    short-id: 274e8f5c1c9feb3f
-  client-fingerprint: chrome
-- name: Reality-129
-  type: vless
-  server: 62.210.91.2
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-130
-  type: vless
-  server: 51.158.206.80
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-131
-  type: vless
-  server: 51.158.206.93
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-132
-  type: vless
-  server: 176.109.109.58
-  port: 8443
-  uuid: e127f737-bd10-475a-9461-e68904180eab
-  cipher: auto
-  tls: true
-  udp: true
-  servername: tradingview.com
-  network: tcp
-  reality-opts:
-    public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
-    short-id: 6419bed7fd0a2cff
-  client-fingerprint: chrome
-- name: Reality-133
-  type: vless
-  server: 195.26.224.112
-  port: 8443
-  uuid: db444bee-8212-5ff5-be40-47e1a7509eb8
-  cipher: auto
-  tls: true
-  udp: true
-  servername: vk.com
-  network: xhttp
-  reality-opts:
-    public-key: HE-fVd73NsTheypCLSyeNxgkg2EJOfXWGxjUOcvPZyQ
-    short-id: 938f14cf6757a249
-  client-fingerprint: chrome
-- name: Reality-134
-  type: vless
-  server: turkey17.zentrolamia.xyz
-  port: 443
-  uuid: 09d2212c-1757-4e34-82d5-b738c393fcc0
-  cipher: auto
-  tls: true
-  udp: true
-  servername: turkey17.zentrolamia.xyz
-  network: tcp
-  reality-opts:
-    public-key: OtkE4LWAvYWWIaBD_RbAHg0bMoFIHJTcs0eXMuV17FY
-    short-id: ''
-  client-fingerprint: firefox
-- name: Reality-135
-  type: vless
-  server: india2.clearorbitllc.com
-  port: 443
-  uuid: 5e8e9c07-8785-46f0-b783-efe874589b05
-  cipher: auto
-  tls: true
-  udp: true
-  servername: india2.clearorbitllc.com
-  network: tcp
-  reality-opts:
-    public-key: x4izG3bGdBtEw3bArBaEI4ItTLfKgnEcTct4GjvTUUQ
-    short-id: 157c0871
-  client-fingerprint: chrome
-- name: Reality-136
-  type: vless
-  server: 151.236.15.72
-  port: 444
-  uuid: faaaf16e-188e-42f2-bcc1-17feadc84fad
-  cipher: auto
-  tls: true
-  udp: true
-  servername: opensuse.org
-  network: tcp
-  reality-opts:
-    public-key: FOSoac3DIrSrCUcBtQA-BdHMxCtqe2CYCpdvGxKMiUw
-    short-id: 82b9ca5d8d39ba72
-  client-fingerprint: chrome
-- name: Reality-137
-  type: vless
-  server: 37.139.32.212
-  port: 443
-  uuid: 557a0638-0981-4176-a8bc-13dbf588291d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: max.ru
-  network: tcp
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 7426b0c03ef009dc
-  client-fingerprint: chrome
-- name: Reality-138
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-139
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-140
-  type: vless
-  server: 16.170.148.222
-  port: 443
-  uuid: fd2c95b1-f48e-4d44-9b53-f5560f2eaae4
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-141
-  type: vless
-  server: 51.158.206.87
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-142
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-143
-  type: vless
-  server: cent1de.maga171717.sbs
-  port: 443
-  uuid: 706fae5e-3fc6-41a4-8eb7-3b3df7bad72b
-  cipher: auto
-  tls: true
-  udp: true
-  servername: snicent1de.maga171717.sbs
-  network: tcp
-  reality-opts:
-    public-key: WWg8Ccc6a3aGGgSRe4tOYrIotlussqEKlhAk3A1PsW4
-    short-id: 913f32684b4776f9
-  client-fingerprint: chrome
-- name: Reality-144
-  type: vless
-  server: 138.2.50.155
-  port: 44073
-  uuid: 11d29ec6-be66-4f59-97c6-7cff836ea318
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.icloud.com
-  network: tcp
-  reality-opts:
-    public-key: Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-145
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-146
-  type: vless
-  server: 212.111.85.1
-  port: 8443
-  uuid: 80115515-eb00-4d28-8f02-66b3e3e6a515
-  cipher: auto
-  tls: true
-  udp: true
-  servername: m.vk.ru
-  network: tcp
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 1929ef620e9b34f5
-  client-fingerprint: chrome
-- name: Reality-147
-  type: vless
-  server: 95.179.138.190
-  port: 443
-  uuid: telegram-id-qeshmserver
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-148
+- name: Reality-006
   type: vless
   server: 15.204.97.176
   port: 23576
@@ -2075,105 +104,23 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-149
+  flow: xtls-rprx-vision
+- name: Reality-007
   type: vless
-  server: 62.210.91.10
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 5.181.171.2
+  port: 443
+  uuid: 8e6acce9-8b56-7190-d491-7d84f8189e26
   cipher: auto
   tls: true
   udp: true
-  servername: fuck.rkn
+  servername: speed.cloudflare.com
   network: tcp
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-150
-  type: vless
-  server: 15.204.97.169
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-151
-  type: vless
-  server: 15.204.97.168
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-152
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
+    public-key: YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y
     short-id: ''
   client-fingerprint: chrome
-- name: Reality-153
-  type: vless
-  server: 15.204.97.197
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-154
-  type: vless
-  server: h.hoomerent.eu
-  port: 2001
-  uuid: 84954c4b-b8e3-45cf-9c31-008f4c5dcd4b
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.speedtest.net
-  network: tcp
-  reality-opts:
-    public-key: FOiMLjK4x-FjfarVeNllgS3-YaaWA34WYzNifqAd_Ds
-    short-id: e5267dc8
-  client-fingerprint: chrome
-- name: Reality-155
-  type: vless
-  server: 51.158.206.20
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-156
+  flow: xtls-rprx-vision
+- name: Reality-009
   type: vless
   server: 57.129.49.1
   port: 23576
@@ -2187,9 +134,10 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-157
+  flow: xtls-rprx-vision
+- name: Reality-010
   type: vless
-  server: 15.204.97.214
+  server: 15.204.97.146
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   cipher: auto
@@ -2201,9 +149,99 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-158
+  flow: xtls-rprx-vision
+- name: Reality-011
   type: vless
-  server: 15.204.97.167
+  server: sw.vles.space
+  port: 52253
+  uuid: afa7cc47-243c-477b-a526-6262d5b75353
+  cipher: auto
+  tls: true
+  udp: true
+  servername: web.max.ru
+  network: xhttp
+  reality-opts:
+    public-key: PvX3pEDYN8SYLmMuNVpnuPTB_V5xHs3HKtz3DcHUKz4
+    short-id: aabbccdd
+  client-fingerprint: chrome
+- name: Reality-012
+  type: vless
+  server: 188.253.26.39
+  port: 442
+  uuid: e929f51d-5a95-5432-b66f-cfe725ea1f61
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: T_gyZwngrYUe24q6-mieGT9WJfzja0PQad_y_SnhBk0
+    short-id: 6ac998b514
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-013
+  type: vless
+  server: 84.17.62.67
+  port: 8443
+  uuid: 146e8a2b-283d-4f06-86ec-0608e2478265
+  cipher: auto
+  tls: true
+  udp: true
+  servername: tradingview.com
+  network: tcp
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: 04bf0403f96e5b4b
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-014
+  type: vless
+  server: 188.34.193.153
+  port: 443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+    short-id: 7cad5040
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-015
+  type: vless
+  server: 147.45.60.6
+  port: 443
+  uuid: beab408c-6aa3-43b9-a1ca-e6fabba5d8e7
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: rTp9PEn36FtQFu32jWAPO3r-e1W2px3RGSuhR-L1DVM
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-016
+  type: vless
+  server: 93.115.25.42
+  port: 8443
+  uuid: ca5ab635-fbaa-4ff2-8283-3954b92ae477
+  cipher: auto
+  tls: true
+  udp: true
+  servername: tradingview.com
+  network: tcp
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-017
+  type: vless
+  server: 15.204.97.165
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   cipher: auto
@@ -2215,7 +253,112 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-159
+  flow: xtls-rprx-vision
+- name: Reality-018
+  type: vless
+  server: nl.rush-server.com
+  port: 443
+  uuid: fec17569-c5a0-4b76-924c-d20a4054f20b
+  cipher: auto
+  tls: true
+  udp: true
+  servername: findmypackets.com
+  network: tcp
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: 64c1fe36c7846400
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-019
+  type: vless
+  server: 84.201.131.235
+  port: 443
+  uuid: f7a69294-6d14-0db1-a813-b4a4b4a1913a
+  cipher: auto
+  tls: true
+  udp: true
+  servername: ads.x5.ru
+  network: grpc
+  reality-opts:
+    public-key: CDnTaL6u0DZdCODpV59EoJA6qqJlVbP3M8bwEXiHFFs
+    short-id: '77'
+  client-fingerprint: chrome
+- name: Reality-020
+  type: vless
+  server: 62.210.91.10
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-021
+  type: vless
+  server: 45.15.162.85
+  port: 443
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+  cipher: auto
+  tls: true
+  udp: true
+  servername: hls-svod.itunes.apple.com
+  network: tcp
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-022
+  type: vless
+  server: 57.129.49.1
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-023
+  type: vless
+  server: 38.60.212.251
+  port: 29059
+  uuid: d706bf16-124a-417b-aaa0-0d6d5efd58fd
+  cipher: auto
+  tls: true
+  udp: true
+  servername: mensura.cdn-apple.com
+  network: tcp
+  reality-opts:
+    public-key: V_eMkcHXf237wGyfggMHHRvQqw51rW1UJPEIw_T2IE4
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-024
+  type: vless
+  server: 158.160.221.132
+  port: 8443
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yandex.ru
+  network: tcp
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 887c0d72e771a934
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-025
   type: vless
   server: 37.233.82.140
   port: 40478
@@ -2229,49 +372,154 @@ proxies:
     public-key: lcJ0LSh015XRfz5-7wB_hln3-bq5ZatFgPugSUCrdR0
     short-id: 3c
   client-fingerprint: chrome
-- name: Reality-160
+- name: Reality-026
   type: vless
-  server: 109.248.170.119
-  port: 13447
-  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
+  server: real-z3.sapienza-mahan.ir
+  port: 8586
+  uuid: ea980c9c-43d5-4487-90c3-aa917020b6fa
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.stackoverflow.com
+  network: tcp
+  reality-opts:
+    public-key: 58yfyRJyku8oddKvCIBHz0K8LrTWKr3qTe-DMUcrWEg
+    short-id: ea0e387f2b260e0d
+  client-fingerprint: chrome
+- name: Reality-027
+  type: vless
+  server: 217.114.15.157
+  port: 443
+  uuid: e0ff43e6-76ed-42f3-a1f0-1bbd5f8ee59d
+  cipher: auto
+  tls: true
+  udp: true
+  servername: github.com
+  network: xhttp
+  reality-opts:
+    public-key: Y2gKx6Wvg0kWTSwtDZUMwoig1x9sxhx4kUg_VrYnUXc
+    short-id: bcbfa46faa4370d2
+  client-fingerprint: chrome
+- name: Reality-028
+  type: vless
+  server: 5.182.36.56
+  port: 45886
+  uuid: 8338171d-2ea7-4015-bdea-492f3d5d4e60
   cipher: auto
   tls: true
   udp: true
   servername: yahoo.com
-  network: raw
+  network: tcp
   reality-opts:
-    public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
-    short-id: '83'
+    public-key: zJeLZDPHoHMcAzBJh38tSavofNlkBrpADFx9jVVPil0
+    short-id: 94f9
   client-fingerprint: chrome
-- name: Reality-161
+- name: Reality-029
   type: vless
-  server: us-2.bot-iphone.ru
+  server: 80.249.131.7
+  port: 443
+  uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
+  cipher: auto
+  tls: true
+  udp: true
+  servername: wa.sfasti.ru
+  network: tcp
+  reality-opts:
+    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
+    short-id: 16895459a2c7768d
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: Reality-030
+  type: vless
+  server: 51.158.206.87
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-031
+  type: vless
+  server: 185.214.74.184
+  port: 443
+  uuid: 2275661d-a9b7-522d-99e6-a4d42cb04fa0
+  cipher: auto
+  tls: true
+  udp: true
+  servername: apple.com
+  network: tcp
+  reality-opts:
+    public-key: PEMF0zJRT97z18eQUFk5jT5sBk1bYZ-Q2PxeFkfEKTQ
+    short-id: ffffffffff
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-032
+  type: vless
+  server: 15.204.97.198
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-033
+  type: vless
+  server: 85.158.110.62
   port: 8443
-  uuid: 9c42819a-67a6-4742-9c6d-64900ba62160
+  uuid: 46c4bca1-3899-496c-9fd5-358fc5b08d01
   cipher: auto
   tls: true
   udp: true
-  servername: samsung.com
+  servername: google.com
   network: tcp
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: Reality-162
-  type: vless
-  server: 137.184.218.169
-  port: 36925
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
+    public-key: sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I
     short-id: ''
   client-fingerprint: chrome
-- name: Reality-163
+  flow: xtls-rprx-vision
+- name: Reality-034
+  type: vless
+  server: 51.158.206.8
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-035
+  type: vless
+  server: 85.158.110.62
+  port: 8443
+  uuid: f4d8b865-a620-4e1d-802a-6bcf5a48c49e
+  cipher: auto
+  tls: true
+  udp: true
+  servername: google.com
+  network: tcp
+  reality-opts:
+    public-key: sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-036
   type: vless
   server: 51.158.206.103
   port: 23576
@@ -2285,133 +533,8 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-164
-  type: vless
-  server: 80.240.23.101
-  port: 443
-  uuid: 97d53a59-918e-45fc-bc5d-ba487f090cc1
-  cipher: auto
-  tls: true
-  udp: true
-  servername: hundleymechanical.com
-  network: xhttp
-  reality-opts:
-    public-key: HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o
-    short-id: 008c74
-  client-fingerprint: chrome
-- name: Reality-165
-  type: vless
-  server: h.hoomerent.eu
-  port: 2001
-  uuid: 84954c4b-b8e3-45cf-9c31-008f4c5dcd4b
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.speedtest.net
-  network: tcp
-  reality-opts:
-    public-key: FOiMLjK4x-FjfarVeNllgS3-YaaWA34WYzNifqAd_Ds
-    short-id: e5267dc8
-  client-fingerprint: chrome
-- name: Reality-166
-  type: vless
-  server: 57.129.53.181
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-167
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-168
-  type: vless
-  server: GRA.IPCL0UD.COM
-  port: 443
-  uuid: 70f7b45a-dbf8-42a1-adc3-3e9124591c98
-  cipher: auto
-  tls: true
-  udp: true
-  servername: jetbrains.com
-  network: tcp
-  reality-opts:
-    public-key: ecfRlCGezg7UQ-iyJAdmtzhswMYOrXYO1ROLVdvhhl0
-    short-id: fd1dff035d0d8f56
-  client-fingerprint: chrome
-- name: Reality-169
-  type: vless
-  server: 77.73.232.61
-  port: 19747
-  uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
-    short-id: '2001'
-  client-fingerprint: chrome
-- name: Reality-170
-  type: vless
-  server: dlc-nl2.persianpinggame.ir
-  port: 443
-  uuid: 38cc3dff-5114-429f-9a45-fed484086c47
-  cipher: auto
-  tls: true
-  udp: true
-  servername: divar.ir
-  network: tcp
-  reality-opts:
-    public-key: FRhlZqNN8KVTgQ-yS-7WTqNjSi9Mhy-ItbmSqcnn5EM
-    short-id: 274e8f5c1c9feb3f
-  client-fingerprint: chrome
-- name: Reality-171
-  type: vless
-  server: 78.40.194.14
-  port: 19465
-  uuid: a6690136-c109-45e6-be13-a45f7cb9eb2a
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-172
-  type: vless
-  server: 46.246.98.74
-  port: 443
-  uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
-  cipher: auto
-  tls: true
-  udp: true
-  servername: learn.microsoft.com
-  network: tcp
-  reality-opts:
-    public-key: nBJICh1KzfMblaXtSxpTiPIHGg2TKP5PF8nq-89Q6jg
-    short-id: 6ed3324b
-  client-fingerprint: chrome
-- name: Reality-173
+  flow: xtls-rprx-vision
+- name: Reality-037
   type: vless
   server: 37.139.33.52
   port: 443
@@ -2425,11 +548,1100 @@ proxies:
     public-key: itChlzYnj7xu0-o776CzSu4BECllDKkrpsKVlNT5Fw0
     short-id: 1de6f79b957b8b5c
   client-fingerprint: chrome
-- name: Reality-174
+  flow: xtls-rprx-vision
+- name: Reality-038
+  type: vless
+  server: 146.19.80.222
+  port: 443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+    short-id: 7cad5040
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-039
+  type: vless
+  server: tbankru.outlinekeys.net
+  port: 443
+  uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
+  cipher: auto
+  tls: true
+  udp: true
+  servername: tbankru.outlinekeys.net
+  network: tcp
+  reality-opts:
+    public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-040
+  type: vless
+  server: 94.232.247.168
+  port: 41360
+  uuid: e16a35ea-6715-4e75-9845-d20358bd0876
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
+    short-id: 1aab45
+  client-fingerprint: chrome
+- name: Reality-041
+  type: vless
+  server: midorinote.ru
+  port: 8443
+  uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
+  cipher: auto
+  tls: true
+  udp: true
+  servername: tradingview.com
+  network: tcp
+  reality-opts:
+    public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
+    short-id: f7aa9e61197d3ac6
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-042
+  type: vless
+  server: fi4.srv.cdnopl.link
+  port: 6443
+  uuid: abb26a5a-3223-476f-a732-4c66f6a116ab
+  cipher: auto
+  tls: true
+  udp: true
+  servername: debug.resolvertest.doh.umbrella.com
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-043
+  type: vless
+  server: 217.114.15.157
+  port: 443
+  uuid: e0ff43e6-76ed-42f3-a1f0-1bbd5f8ee59d
+  cipher: auto
+  tls: true
+  udp: true
+  servername: github.com
+  network: xhttp
+  reality-opts:
+    public-key: Y2gKx6Wvg0kWTSwtDZUMwoig1x9sxhx4kUg_VrYnUXc
+    short-id: bcbfa46faa4370d2
+  client-fingerprint: chrome
+- name: Reality-044
+  type: vless
+  server: 51.158.206.26
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-045
+  type: vless
+  server: 51.158.206.97
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-046
+  type: vless
+  server: 212.111.85.1
+  port: 8443
+  uuid: 80115515-eb00-4d28-8f02-66b3e3e6a515
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 1929ef620e9b34f5
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-047
+  type: vless
+  server: 84.252.143.25
+  port: 8443
+  uuid: 1e4649f5-f5d6-4896-9be0-4c6725d4106e
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yandex.ru
+  network: tcp
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: 04bf0403f96e5b4b
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-049
+  type: vless
+  server: 51.158.206.86
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-050
+  type: vless
+  server: 15.204.97.148
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-051
+  type: vless
+  server: 195.26.224.112
+  port: 8443
+  uuid: db444bee-8212-5ff5-be40-47e1a7509eb8
+  cipher: auto
+  tls: true
+  udp: true
+  servername: vk.com
+  network: xhttp
+  reality-opts:
+    public-key: HE-fVd73NsTheypCLSyeNxgkg2EJOfXWGxjUOcvPZyQ
+    short-id: 938f14cf6757a249
+  client-fingerprint: chrome
+- name: Reality-052
+  type: vless
+  server: 5.199.173.116
+  port: 443
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  cipher: auto
+  tls: true
+  udp: true
+  servername: apple.com
+  network: tcp
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: 00684d2eae2cdd16
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-053
+  type: vless
+  server: 212.111.85.1
+  port: 8443
+  uuid: 80115515-eb00-4d28-8f02-66b3e3e6a515
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 1929ef620e9b34f5
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-054
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-055
+  type: vless
+  server: 15.204.97.169
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-056
+  type: vless
+  server: 188.34.193.153
+  port: 443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+    short-id: 7cad5040
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-057
+  type: vless
+  server: 51.158.206.20
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-058
+  type: vless
+  server: 95.163.182.181
+  port: 443
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+  cipher: auto
+  tls: true
+  udp: true
+  servername: api-maps.yandex.ru
+  network: tcp
+  reality-opts:
+    public-key: 5bGFIWSo4vlrd9Tv1yFcpdpSjrjYYN20SOWHYfighHc
+    short-id: e5f67890
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-059
+  type: vless
+  server: 157.180.79.18
+  port: 2053
+  uuid: 24497ec6-9244-4781-869d-3b48dbb13361
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: XhVQYDFxZdYohty3YEqn7fuvJMJmq4e79477s81vWHc
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-060
+  type: vless
+  server: dd.openaccessnode.com
+  port: 503
+  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
+  cipher: auto
+  tls: true
+  udp: true
+  servername: refersion.com
+  network: tcp
+  reality-opts:
+    public-key: aNLPNNyjIC7QYLe7MpF4nxxHhO421dBSZaQgsDd1szs
+    short-id: 1d64e9805b4f9ae3
+  client-fingerprint: chrome
+- name: Reality-061
+  type: vless
+  server: 15.204.97.197
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-062
+  type: vless
+  server: 57.129.53.182
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-063
+  type: vless
+  server: 212.111.84.187
+  port: 8443
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 887c0d72e771a934
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-064
+  type: vless
+  server: 51.158.206.81
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-065
+  type: vless
+  server: 212.233.73.212
+  port: 8443
+  uuid: 0ff8dbfb-d7ee-4a19-b22d-b652a8b52e22
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-066
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-067
+  type: vless
+  server: 51.158.206.98
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-069
+  type: vless
+  server: 15.204.97.155
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-070
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-071
+  type: vless
+  server: 46.246.98.74
+  port: 443
+  uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
+  cipher: auto
+  tls: true
+  udp: true
+  servername: learn.microsoft.com
+  network: tcp
+  reality-opts:
+    public-key: nBJICh1KzfMblaXtSxpTiPIHGg2TKP5PF8nq-89Q6jg
+    short-id: 6ed3324b
+  client-fingerprint: chrome
+- name: Reality-072
+  type: vless
+  server: 51.158.206.25
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-073
+  type: vless
+  server: 46.225.75.177
+  port: 443
+  uuid: c65ac848-31fa-42ee-b152-b65276378111
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: _R5PqWhttPJp69I0cg4UAgGoeX80Y-wL4xdalaHC7SQ
+    short-id: 31e7200536a1ad45
+  client-fingerprint: chrome
+- name: Reality-074
+  type: vless
+  server: 15.204.97.226
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-075
+  type: vless
+  server: nl1.rsvps.tech
+  port: 443
+  uuid: beab408c-6aa3-43b9-a1ca-e6fabba5d8e7
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: rTp9PEn36FtQFu32jWAPO3r-e1W2px3RGSuhR-L1DVM
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-076
+  type: vless
+  server: 51.158.206.96
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-077
+  type: vless
+  server: us-2.bot-iphone.ru
+  port: 8443
+  uuid: 9c42819a-67a6-4742-9c6d-64900ba62160
+  cipher: auto
+  tls: true
+  udp: true
+  servername: samsung.com
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-078
+  type: vless
+  server: 51.158.206.12
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-079
+  type: vless
+  server: 157.173.127.224
+  port: 443
+  uuid: bec44ac3-a662-4179-a9dd-2aa881706dde
+  cipher: auto
+  tls: true
+  udp: true
+  servername: analytics.google.com
+  network: tcp
+  reality-opts:
+    public-key: Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ
+    short-id: aba7bc9a
+  client-fingerprint: chrome
+- name: Reality-080
+  type: vless
+  server: 15.204.97.168
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-081
+  type: vless
+  server: usa26.clearorbitllc.com
+  port: 443
+  uuid: 022af852-49c7-4b5e-a13b-6877bcfe30a3
+  cipher: auto
+  tls: true
+  udp: true
+  servername: usa26.clearorbitllc.com
+  network: tcp
+  reality-opts:
+    public-key: uG51OJ4QHrSFthqOCL3Ctqxy4plPkeUyRGDmF4V7dFo
+    short-id: c6de8980
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: Reality-082
+  type: vless
+  server: india2.clearorbitllc.com
+  port: 443
+  uuid: 5e8e9c07-8785-46f0-b783-efe874589b05
+  cipher: auto
+  tls: true
+  udp: true
+  servername: india2.clearorbitllc.com
+  network: tcp
+  reality-opts:
+    public-key: x4izG3bGdBtEw3bArBaEI4ItTLfKgnEcTct4GjvTUUQ
+    short-id: 157c0871
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-083
+  type: vless
+  server: dlc-nl2.persianpinggame.ir
+  port: 443
+  uuid: 38cc3dff-5114-429f-9a45-fed484086c47
+  cipher: auto
+  tls: true
+  udp: true
+  servername: divar.ir
+  network: tcp
+  reality-opts:
+    public-key: FRhlZqNN8KVTgQ-yS-7WTqNjSi9Mhy-ItbmSqcnn5EM
+    short-id: 274e8f5c1c9feb3f
+  client-fingerprint: chrome
+- name: Reality-084
+  type: vless
+  server: 15.204.97.214
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-085
+  type: vless
+  server: 94.103.1.230
+  port: 443
+  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
+  cipher: auto
+  tls: true
+  udp: true
+  servername: sun6-21.userapi.com
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+- name: Reality-086
+  type: vless
+  server: h.hoomerent.eu
+  port: 2001
+  uuid: 84954c4b-b8e3-45cf-9c31-008f4c5dcd4b
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.speedtest.net
+  network: tcp
+  reality-opts:
+    public-key: FOiMLjK4x-FjfarVeNllgS3-YaaWA34WYzNifqAd_Ds
+    short-id: e5267dc8
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-087
+  type: vless
+  server: 130.193.59.133
+  port: 51101
+  uuid: e127f737-bd10-475a-9461-e68904180eab
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yandex.ru
+  network: tcp
+  reality-opts:
+    public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+    short-id: 4ffc99daad0f261f
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-088
+  type: vless
+  server: 80.240.23.101
+  port: 443
+  uuid: 97d53a59-918e-45fc-bc5d-ba487f090cc1
+  cipher: auto
+  tls: true
+  udp: true
+  servername: hundleymechanical.com
+  network: xhttp
+  reality-opts:
+    public-key: HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o
+    short-id: 008c74
+  client-fingerprint: chrome
+- name: Reality-089
+  type: vless
+  server: 57.129.53.181
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-090
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-091
+  type: vless
+  server: netherlands96.zentrolamia.xyz
+  port: 443
+  uuid: 9c567b10-876a-47cc-a4de-63c40f098f10
+  cipher: auto
+  tls: true
+  udp: true
+  servername: netherlands96.zentrolamia.xyz
+  network: tcp
+  reality-opts:
+    public-key: cslJD2Mw_-UQgSLkY8wPUwV8SKtDr0fci5-9HVdwRnw
+    short-id: ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: Reality-092
+  type: vless
+  server: 157.173.127.225
+  port: 443
+  uuid: 11beaf11-726d-4c11-8ce9-27308c1c608c
+  cipher: auto
+  tls: true
+  udp: true
+  servername: analytics.google.com
+  network: tcp
+  reality-opts:
+    public-key: v3EwzA9RIIh5Ndxm-gypRY6RCJhOpQ-2WO7KaH8nsC8
+    short-id: eab26c4a32
+  client-fingerprint: random
+- name: Reality-093
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-095
+  type: vless
+  server: 140.238.100.35
+  port: 40721
+  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+    short-id: df8611c07d
+  client-fingerprint: chrome
+- name: Reality-096
+  type: vless
+  server: 5.182.38.91
+  port: 17267
+  uuid: 1c7fcc38-e6be-43c5-875f-b8de2516b9f2
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk
+    short-id: 4ae260
+  client-fingerprint: chrome
+- name: Reality-097
+  type: vless
+  server: 217.114.15.157
+  port: 443
+  uuid: e0ff43e6-76ed-42f3-a1f0-1bbd5f8ee59d
+  cipher: auto
+  tls: true
+  udp: true
+  servername: github.com
+  network: xhttp
+  reality-opts:
+    public-key: Y2gKx6Wvg0kWTSwtDZUMwoig1x9sxhx4kUg_VrYnUXc
+    short-id: bcbfa46faa4370d2
+  client-fingerprint: chrome
+- name: Reality-099
+  type: vless
+  server: 57.129.49.1
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-100
+  type: vless
+  server: 138.2.50.155
+  port: 44073
+  uuid: 11d29ec6-be66-4f59-97c6-7cff836ea318
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.icloud.com
+  network: tcp
+  reality-opts:
+    public-key: Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-101
+  type: vless
+  server: 185.177.238.144
+  port: 2083
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  cipher: auto
+  tls: true
+  udp: true
+  servername: apple.com
+  network: grpc
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: 6da16b1335651b38
+  client-fingerprint: chrome
+- name: Reality-102
+  type: vless
+  server: turkey17.zentrolamia.xyz
+  port: 443
+  uuid: 09d2212c-1757-4e34-82d5-b738c393fcc0
+  cipher: auto
+  tls: true
+  udp: true
+  servername: turkey17.zentrolamia.xyz
+  network: tcp
+  reality-opts:
+    public-key: OtkE4LWAvYWWIaBD_RbAHg0bMoFIHJTcs0eXMuV17FY
+    short-id: ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: Reality-103
+  type: vless
+  server: 45.12.143.191
+  port: 20329
+  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo
+    short-id: 4602ee9f9f36
+  client-fingerprint: chrome
+- name: Reality-104
+  type: vless
+  server: 109.248.170.119
+  port: 13447
+  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: raw
+  reality-opts:
+    public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
+    short-id: '83'
+  client-fingerprint: chrome
+- name: Reality-106
+  type: vless
+  server: 217.114.15.157
+  port: 443
+  uuid: e0ff43e6-76ed-42f3-a1f0-1bbd5f8ee59d
+  cipher: auto
+  tls: true
+  udp: true
+  servername: github.com
+  network: xhttp
+  reality-opts:
+    public-key: Y2gKx6Wvg0kWTSwtDZUMwoig1x9sxhx4kUg_VrYnUXc
+    short-id: bcbfa46faa4370d2
+  client-fingerprint: chrome
+- name: Reality-107
+  type: vless
+  server: 46.225.75.177
+  port: 443
+  uuid: c65ac848-31fa-42ee-b152-b65276378111
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: _R5PqWhttPJp69I0cg4UAgGoeX80Y-wL4xdalaHC7SQ
+    short-id: 31e7200536a1ad45
+  client-fingerprint: chrome
+- name: Reality-108
+  type: vless
+  server: midorinote.ru
+  port: 8443
+  uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
+  cipher: auto
+  tls: true
+  udp: true
+  servername: tradingview.com
+  network: tcp
+  reality-opts:
+    public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
+    short-id: f7aa9e61197d3ac6
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-109
+  type: vless
+  server: 46.225.75.177
+  port: 443
+  uuid: c65ac848-31fa-42ee-b152-b65276378111
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: _R5PqWhttPJp69I0cg4UAgGoeX80Y-wL4xdalaHC7SQ
+    short-id: 31e7200536a1ad45
+  client-fingerprint: chrome
+- name: Reality-110
+  type: vless
+  server: 15.204.97.206
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-111
+  type: vless
+  server: 151.236.15.72
+  port: 444
+  uuid: faaaf16e-188e-42f2-bcc1-17feadc84fad
+  cipher: auto
+  tls: true
+  udp: true
+  servername: opensuse.org
+  network: tcp
+  reality-opts:
+    public-key: FOSoac3DIrSrCUcBtQA-BdHMxCtqe2CYCpdvGxKMiUw
+    short-id: 82b9ca5d8d39ba72
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-112
+  type: vless
+  server: 46.246.98.74
+  port: 443
+  uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
+  cipher: auto
+  tls: true
+  udp: true
+  servername: learn.microsoft.com
+  network: tcp
+  reality-opts:
+    public-key: nBJICh1KzfMblaXtSxpTiPIHGg2TKP5PF8nq-89Q6jg
+    short-id: 6ed3324b
+  client-fingerprint: chrome
+- name: Reality-113
+  type: vless
+  server: 15.204.97.149
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-114
+  type: vless
+  server: dlc-ger2.persianpinggame.ir
+  port: 443
+  uuid: dc4651a0-39c9-4e09-81f9-ef95aa993c8e
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: FRhlZqNN8KVTgQ-yS-7WTqNjSi9Mhy-ItbmSqcnn5EM
+    short-id: 274e8f5c1c9feb3f
+  client-fingerprint: chrome
+- name: Reality-115
+  type: vless
+  server: 107.174.82.65
+  port: 32068
+  uuid: bd7444d1-5f08-43bd-a332-f9058ad15010
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: QNcdT48fsgPz6WLCLTUmfb2pGG_DYAYeYSVJ2Q4Erwc
+    short-id: 684de91a
+  client-fingerprint: chrome
+- name: Reality-117
+  type: vless
+  server: 51.158.206.25
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-118
   type: vless
   server: 5.181.171.2
   port: 443
-  uuid: 8e6acce9-8b56-7190-d491-7d84f8189e26
+  uuid: a87bf8a2-17a4-3054-b51e-876b5f1d0f24
   cipher: auto
   tls: true
   udp: true
@@ -2438,6 +1650,790 @@ proxies:
   reality-opts:
     public-key: YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y
     short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-119
+  type: vless
+  server: 15.204.97.159
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-121
+  type: vless
+  server: 94.103.1.230
+  port: 443
+  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
+  cipher: auto
+  tls: true
+  udp: true
+  servername: sun6-21.userapi.com
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+- name: Reality-122
+  type: vless
+  server: 77.73.232.61
+  port: 19747
+  uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
+    short-id: '2001'
+  client-fingerprint: chrome
+- name: Reality-123
+  type: vless
+  server: 80.240.23.101
+  port: 443
+  uuid: 97d53a59-918e-45fc-bc5d-ba487f090cc1
+  cipher: auto
+  tls: true
+  udp: true
+  servername: hundleymechanical.com
+  network: xhttp
+  reality-opts:
+    public-key: HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o
+    short-id: 008c74
+  client-fingerprint: chrome
+- name: Reality-124
+  type: vless
+  server: 15.204.97.164
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-125
+  type: vless
+  server: 188.34.193.153
+  port: 443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+    short-id: 7cad5040
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-127
+  type: vless
+  server: hinet2.gzcloud.shop
+  port: 20519
+  uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+  cipher: auto
+  tls: true
+  udp: true
+  servername: buylite.music.apple.com
+  network: tcp
+  reality-opts:
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: 4b070735
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-128
+  type: vless
+  server: 15.204.97.172
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-129
+  type: vless
+  server: cent1de.maga171717.sbs
+  port: 443
+  uuid: 706fae5e-3fc6-41a4-8eb7-3b3df7bad72b
+  cipher: auto
+  tls: true
+  udp: true
+  servername: snicent1de.maga171717.sbs
+  network: tcp
+  reality-opts:
+    public-key: WWg8Ccc6a3aGGgSRe4tOYrIotlussqEKlhAk3A1PsW4
+    short-id: 913f32684b4776f9
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-130
+  type: vless
+  server: 195.26.224.102
+  port: 8443
+  uuid: db444bee-8212-5ff5-be40-47e1a7509eb8
+  cipher: auto
+  tls: true
+  udp: true
+  servername: vk.com
+  network: xhttp
+  reality-opts:
+    public-key: YroB2r6MeCXtjqqVx5gr45KTPCJF_kk2n0yqbHhEQSE
+    short-id: 743952dfbeb3
+  client-fingerprint: chrome
+- name: Reality-131
+  type: vless
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  port: 443
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+  cipher: auto
+  tls: true
+  udp: true
+  servername: i2pd.website
+  network: tcp
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-132
+  type: vless
+  server: 5.181.171.2
+  port: 443
+  uuid: a87bf8a2-17a4-3054-b51e-876b5f1d0f24
+  cipher: auto
+  tls: true
+  udp: true
+  servername: speed.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-133
+  type: vless
+  server: 37.139.33.52
+  port: 443
+  uuid: faa59b1b-7e8e-48dc-a5a3-2d89ab4a7646
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.com
+  network: tcp
+  reality-opts:
+    public-key: itChlzYnj7xu0-o776CzSu4BECllDKkrpsKVlNT5Fw0
+    short-id: 1de6f79b957b8b5c
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-134
+  type: vless
+  server: 46.225.75.177
+  port: 443
+  uuid: c65ac848-31fa-42ee-b152-b65276378111
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: _R5PqWhttPJp69I0cg4UAgGoeX80Y-wL4xdalaHC7SQ
+    short-id: 31e7200536a1ad45
+  client-fingerprint: chrome
+- name: Reality-135
+  type: vless
+  server: 15.204.97.177
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-136
+  type: vless
+  server: 103.175.79.10
+  port: 443
+  uuid: 49ed01ad-3bb4-204f-b0ff-a58f658fd618
+  cipher: auto
+  tls: true
+  udp: true
+  servername: speed.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: 4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-137
+  type: vless
+  server: 91.99.168.213
+  port: 443
+  uuid: 14eba471-4623-4ed1-b937-f5b2206749bf
+  cipher: auto
+  tls: true
+  udp: true
+  servername: miro.com
+  network: grpc
+  reality-opts:
+    public-key: UrGT7bAn2UND3kx81QHACf_6qReN8V6_o70kZerONk4
+    short-id: 1c547814
+  client-fingerprint: chrome
+- name: Reality-138
+  type: vless
+  server: 15.204.97.175
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-139
+  type: vless
+  server: 85.158.110.62
+  port: 8443
+  uuid: 86be7d6e-9dda-433b-8ea8-0c44a7dfcfbd
+  cipher: auto
+  tls: true
+  udp: true
+  servername: google.com
+  network: tcp
+  reality-opts:
+    public-key: sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-140
+  type: vless
+  server: 45.12.143.191
+  port: 20329
+  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo
+    short-id: 4602ee9f9f36
+  client-fingerprint: chrome
+- name: Reality-141
+  type: vless
+  server: 212.111.84.187
+  port: 8443
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 887c0d72e771a934
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-142
+  type: vless
+  server: iran.mr-cloud.ir
+  port: 443
+  uuid: 06d4887e-9e2c-45a3-a0ac-309f4e47f047
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.speedtest.net
+  network: tcp
+  reality-opts:
+    public-key: __6BhtO3Rhjw4wnAmzklhquVvIngjhfnB8dhDVtj0Vs
+    short-id: 275f34
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-143
+  type: vless
+  server: 212.111.84.64
+  port: 8443
+  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 205748bc0f24a747
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-144
+  type: vless
+  server: 77.73.232.61
+  port: 19747
+  uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
+    short-id: '2001'
+  client-fingerprint: chrome
+- name: Reality-145
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-146
+  type: vless
+  server: 51.158.206.19
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-147
+  type: vless
+  server: 15.204.97.154
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-148
+  type: vless
+  server: 62.210.91.2
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-150
+  type: vless
+  server: real-z3.sapienza-mahan.ir
+  port: 8586
+  uuid: ea980c9c-43d5-4487-90c3-aa917020b6fa
+  cipher: auto
+  tls: true
+  udp: true
+  servername: tgju.org
+  network: tcp
+  reality-opts:
+    public-key: 58yfyRJyku8oddKvCIBHz0K8LrTWKr3qTe-DMUcrWEg
+    short-id: ea0e387f2b260e0d
+  client-fingerprint: chrome
+- name: Reality-151
+  type: vless
+  server: 212.111.85.1
+  port: 8443
+  uuid: 80115515-eb00-4d28-8f02-66b3e3e6a515
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 1929ef620e9b34f5
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-152
+  type: vless
+  server: 217.16.25.173
+  port: 443
+  uuid: 0bdf406a-84a5-46a0-baf8-c1d85ad30d6b
+  cipher: auto
+  tls: true
+  udp: true
+  servername: eh.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: mhS5tgy6bzzFw_sOpdAGuKVS5MF1e0FjzimA92KnPUE
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-153
+  type: vless
+  server: 188.253.26.39
+  port: 442
+  uuid: e929f51d-5a95-5432-b66f-cfe725ea1f61
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: T_gyZwngrYUe24q6-mieGT9WJfzja0PQad_y_SnhBk0
+    short-id: 6ac998b514
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-154
+  type: vless
+  server: 51.158.206.96
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-155
+  type: vless
+  server: 80.240.23.101
+  port: 443
+  uuid: 97d53a59-918e-45fc-bc5d-ba487f090cc1
+  cipher: auto
+  tls: true
+  udp: true
+  servername: hundleymechanical.com
+  network: xhttp
+  reality-opts:
+    public-key: HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o
+    short-id: 008c74
+  client-fingerprint: chrome
+- name: Reality-156
+  type: vless
+  server: 188.253.26.39
+  port: 442
+  uuid: e929f51d-5a95-5432-b66f-cfe725ea1f61
+  cipher: auto
+  tls: true
+  udp: true
+  servername: yahoo.com
+  network: tcp
+  reality-opts:
+    public-key: T_gyZwngrYUe24q6-mieGT9WJfzja0PQad_y_SnhBk0
+    short-id: 6ac998b514
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-157
+  type: vless
+  server: 15.204.97.167
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-158
+  type: vless
+  server: 51.158.206.34
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-159
+  type: vless
+  server: 144.31.111.130
+  port: 443
+  uuid: a384c715-aeb5-45e8-859b-f687ca6c083f
+  cipher: auto
+  tls: true
+  udp: true
+  servername: google.com
+  network: tcp
+  reality-opts:
+    public-key: wBrGfTI9PaFf966aN6KaCY0cL6QRLlop4nzNa6bJsiQ
+    short-id: 9f35da6c9412b832
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-160
+  type: vless
+  server: 57.129.49.1
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-161
+  type: vless
+  server: 146.190.85.213
+  port: 45989
+  uuid: fa7ea4ac-1ed6-467a-ae18-2099ed2bb4ae
+  cipher: auto
+  tls: true
+  udp: true
+  servername: apple.com
+  network: tcp
+  reality-opts:
+    public-key: YmPBYhQjKnaKKGDHQb6xxjvPw3nenm59T1ssG0KFcj0
+    short-id: 1f13df2cb7
+  client-fingerprint: chrome
+- name: Reality-162
+  type: vless
+  server: h.hoomerent.eu
+  port: 2001
+  uuid: 84954c4b-b8e3-45cf-9c31-008f4c5dcd4b
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.speedtest.net
+  network: tcp
+  reality-opts:
+    public-key: FOiMLjK4x-FjfarVeNllgS3-YaaWA34WYzNifqAd_Ds
+    short-id: e5267dc8
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-163
+  type: vless
+  server: GRA.IPCL0UD.COM
+  port: 443
+  uuid: 70f7b45a-dbf8-42a1-adc3-3e9124591c98
+  cipher: auto
+  tls: true
+  udp: true
+  servername: jetbrains.com
+  network: tcp
+  reality-opts:
+    public-key: ecfRlCGezg7UQ-iyJAdmtzhswMYOrXYO1ROLVdvhhl0
+    short-id: fd1dff035d0d8f56
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-164
+  type: vless
+  server: 57.129.53.181
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-165
+  type: vless
+  server: 212.111.84.187
+  port: 8443
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 887c0d72e771a934
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-166
+  type: vless
+  server: deu196.unboundaccess.org
+  port: 443
+  uuid: f788e136-b245-4617-9d41-b505c7f41ef9
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.bing.com
+  network: tcp
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-167
+  type: vless
+  server: 51.158.206.80
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-168
+  type: vless
+  server: 212.111.84.187
+  port: 8443
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+  cipher: auto
+  tls: true
+  udp: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 887c0d72e771a934
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-169
+  type: vless
+  server: 176.109.109.58
+  port: 8443
+  uuid: e127f737-bd10-475a-9461-e68904180eab
+  cipher: auto
+  tls: true
+  udp: true
+  servername: tradingview.com
+  network: tcp
+  reality-opts:
+    public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+    short-id: 6419bed7fd0a2cff
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-170
+  type: vless
+  server: 45.89.107.200
+  port: 8443
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+  cipher: auto
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+    short-id: 7cad5040
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-171
+  type: vless
+  server: 51.158.206.34
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-172
+  type: vless
+  server: 15.204.97.216
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-173
+  type: vless
+  server: 176.120.72.63
+  port: 38339
+  uuid: 481c5606-b586-44d7-bc2e-d8ef30d67f62
+  cipher: auto
+  tls: true
+  udp: true
+  servername: dl.google.com
+  network: tcp
+  reality-opts:
+    public-key: o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA
+    short-id: e16883e511
+  client-fingerprint: chrome
+- name: Reality-174
+  type: vless
+  server: kz.accesspoints.cloakify.app
+  port: 38339
+  uuid: 481c5606-b586-44d7-bc2e-d8ef30d67f62
+  cipher: auto
+  tls: true
+  udp: true
+  servername: dl.google.com
+  network: tcp
+  reality-opts:
+    public-key: o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA
+    short-id: e16883e511
   client-fingerprint: chrome
 - name: Reality-175
   type: vless
@@ -2453,315 +2449,8 @@ proxies:
     public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
     short-id: 887c0d72e771a934
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
 - name: Reality-176
-  type: vless
-  server: 46.246.98.74
-  port: 443
-  uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
-  cipher: auto
-  tls: true
-  udp: true
-  servername: learn.microsoft.com
-  network: tcp
-  reality-opts:
-    public-key: nBJICh1KzfMblaXtSxpTiPIHGg2TKP5PF8nq-89Q6jg
-    short-id: 6ed3324b
-  client-fingerprint: firefox
-- name: Reality-177
-  type: vless
-  server: 45.12.143.191
-  port: 20329
-  uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo
-    short-id: 4602ee9f9f36
-  client-fingerprint: chrome
-- name: Reality-178
-  type: vless
-  server: 94.103.1.230
-  port: 443
-  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
-  cipher: auto
-  tls: true
-  udp: true
-  servername: sun6-21.userapi.com
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  client-fingerprint: qq
-- name: Reality-179
-  type: vless
-  server: 45.89.109.25
-  port: 18278
-  uuid: 7a30b7fc-4868-4d1d-84b8-16a3d3df0139
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: 8Fglzc7t2LS4r1vQWlVMNe_EsFdhMawlxeDacbhmiAg
-    short-id: f0
-  client-fingerprint: chrome
-- name: Reality-180
-  type: vless
-  server: 185.214.74.184
-  port: 443
-  uuid: 2275661d-a9b7-522d-99e6-a4d42cb04fa0
-  cipher: auto
-  tls: true
-  udp: true
-  servername: apple.com
-  network: tcp
-  reality-opts:
-    public-key: PEMF0zJRT97z18eQUFk5jT5sBk1bYZ-Q2PxeFkfEKTQ
-    short-id: ffffffffff
-  client-fingerprint: chrome
-- name: Reality-181
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: firefox
-- name: Reality-182
-  type: vless
-  server: 46.225.75.177
-  port: 443
-  uuid: c65ac848-31fa-42ee-b152-b65276378111
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: _R5PqWhttPJp69I0cg4UAgGoeX80Y-wL4xdalaHC7SQ
-    short-id: 31e7200536a1ad45
-  client-fingerprint: chrome
-- name: Reality-183
-  type: vless
-  server: 15.204.97.165
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-184
-  type: vless
-  server: 51.158.206.93
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-185
-  type: vless
-  server: 15.204.97.177
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-186
-  type: vless
-  server: 46.225.75.177
-  port: 443
-  uuid: c65ac848-31fa-42ee-b152-b65276378111
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: _R5PqWhttPJp69I0cg4UAgGoeX80Y-wL4xdalaHC7SQ
-    short-id: 31e7200536a1ad45
-  client-fingerprint: chrome
-- name: Reality-187
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-188
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-189
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-190
-  type: vless
-  server: market.chepschasb.shop
-  port: 2052
-  uuid: chanel%3BV2ray_fa3t
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-191
-  type: vless
-  server: 15.204.97.155
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-192
-  type: vless
-  server: 91.98.27.174
-  port: 4450
-  uuid: 1eba8f10-8e16-484b-be7a-613327727d4d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: play.google.com
-  network: tcp
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-193
-  type: vless
-  server: 80.240.23.101
-  port: 443
-  uuid: 97d53a59-918e-45fc-bc5d-ba487f090cc1
-  cipher: auto
-  tls: true
-  udp: true
-  servername: hundleymechanical.com
-  network: xhttp
-  reality-opts:
-    public-key: HhI0Y1IV5Vks0OqsV6N4Csvaivc1BH_IzoSbw5Ii_3o
-    short-id: 008c74
-  client-fingerprint: chrome
-- name: Reality-194
-  type: vless
-  server: 85.158.110.62
-  port: 8443
-  uuid: 46c4bca1-3899-496c-9fd5-358fc5b08d01
-  cipher: auto
-  tls: true
-  udp: true
-  servername: google.com
-  network: tcp
-  reality-opts:
-    public-key: sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-195
-  type: vless
-  server: 188.34.193.153
-  port: 443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-    short-id: 7cad5040
-  client-fingerprint: chrome
-- name: Reality-196
-  type: vless
-  server: s1.aparat-movies-download.ir
-  port: 4450
-  uuid: a19f4213-fcb8-4384-9c85-cb51cae8ab8b
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-197
-  type: vless
-  server: 51.158.206.25
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-198
   type: vless
   server: 15.204.97.214
   port: 23576
@@ -2775,7 +2464,23 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-199
+  flow: xtls-rprx-vision
+- name: Reality-177
+  type: vless
+  server: 15.204.97.160
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  cipher: auto
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  network: tcp
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: Reality-178
   type: vless
   server: 51.158.206.29
   port: 23576
@@ -2789,21 +2494,23 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-200
+  flow: xtls-rprx-vision
+- name: Reality-180
   type: vless
-  server: 51.158.206.96
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 83.222.23.113
+  port: 443
+  uuid: 9a8a52d6-f24b-4f03-bf6f-f4854717f54e
   cipher: auto
   tls: true
   udp: true
-  servername: fuck.rkn
+  servername: google.com
   network: tcp
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    public-key: Jwam5OBjXf4bffZzA3IqzfcNONIMhYMgjysXPU44XFU
+    short-id: c4da507c203b545a
   client-fingerprint: chrome
-- name: Reality-201
+  flow: xtls-rprx-vision
+- name: Reality-181
   type: vless
   server: 57.129.49.1
   port: 23576
@@ -2817,51 +2524,10 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-202
+  flow: xtls-rprx-vision
+- name: Reality-182
   type: vless
-  server: 144.124.250.172
-  port: 19465
-  uuid: a6690136-c109-45e6-be13-a45f7cb9eb2a
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-203
-  type: vless
-  server: ultrawide.zaros.tech
-  port: 12003
-  uuid: 174ba1c4-e694-472f-8f1b-1140752338f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: ''
-  network: tcp
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-204
-  type: vless
-  server: 45.15.162.85
-  port: 443
-  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-  cipher: auto
-  tls: true
-  udp: true
-  servername: hls-svod.itunes.apple.com
-  network: tcp
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  client-fingerprint: chrome
-- name: Reality-205
-  type: vless
-  server: 15.204.97.219
+  server: 51.158.206.29
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   cipher: auto
@@ -2873,214 +2539,125 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: Reality-206
+  flow: xtls-rprx-vision
+- name: Reality-183
   type: vless
-  server: 137.184.218.169
-  port: 36925
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-207
-  type: vless
-  server: 57.129.49.1
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  cipher: auto
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  network: tcp
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: Reality-208
-  type: vless
-  server: 37.139.32.212
+  server: 46.246.98.74
   port: 443
-  uuid: 557a0638-0981-4176-a8bc-13dbf588291d
+  uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
   cipher: auto
   tls: true
   udp: true
-  servername: max.ru
+  servername: learn.microsoft.com
   network: tcp
   reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 7426b0c03ef009dc
-  client-fingerprint: chrome
-- name: Reality-209
-  type: vless
-  server: 46.225.75.177
-  port: 443
-  uuid: c65ac848-31fa-42ee-b152-b65276378111
-  cipher: auto
-  tls: true
-  udp: true
-  servername: yahoo.com
-  network: tcp
-  reality-opts:
-    public-key: _R5PqWhttPJp69I0cg4UAgGoeX80Y-wL4xdalaHC7SQ
-    short-id: 31e7200536a1ad45
-  client-fingerprint: chrome
-- name: Reality-210
-  type: vless
-  server: 45.89.107.200
-  port: 8443
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-    short-id: 7cad5040
-  client-fingerprint: chrome
-- name: Reality-211
-  type: vless
-  server: 137.184.218.169
-  port: 36925
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-  cipher: auto
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
-    short-id: ''
-  client-fingerprint: chrome
-- name: Reality-212
-  type: vless
-  server: 5.181.171.2
-  port: 443
-  uuid: a87bf8a2-17a4-3054-b51e-876b5f1d0f24
-  cipher: auto
-  tls: true
-  udp: true
-  servername: speed.cloudflare.com
-  network: tcp
-  reality-opts:
-    public-key: YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y
-    short-id: ''
-  client-fingerprint: chrome
+    public-key: nBJICh1KzfMblaXtSxpTiPIHGg2TKP5PF8nq-89Q6jg
+    short-id: 6ed3324b
+  client-fingerprint: firefox
 proxy-groups:
 - name: 自动选择
   type: url-test
   proxies:
-  - Reality-0
-  - Reality-1
-  - Reality-2
-  - Reality-3
-  - Reality-4
-  - Reality-5
-  - Reality-6
-  - Reality-7
-  - Reality-8
-  - Reality-9
-  - Reality-10
-  - Reality-11
-  - Reality-12
-  - Reality-13
-  - Reality-14
-  - Reality-15
-  - Reality-16
-  - Reality-17
-  - Reality-18
-  - Reality-19
-  - Reality-20
-  - Reality-21
-  - Reality-22
-  - Reality-23
-  - Reality-24
-  - Reality-25
-  - Reality-26
-  - Reality-27
-  - Reality-28
-  - Reality-29
-  - Reality-30
-  - Reality-31
-  - Reality-32
-  - Reality-33
-  - Reality-34
-  - Reality-35
-  - Reality-36
-  - Reality-37
-  - Reality-38
-  - Reality-39
-  - Reality-40
-  - Reality-41
-  - Reality-42
-  - Reality-43
-  - Reality-44
-  - Reality-45
-  - Reality-46
-  - Reality-47
-  - Reality-48
-  - Reality-49
-  - Reality-50
-  - Reality-51
-  - Reality-52
-  - Reality-53
-  - Reality-54
-  - Reality-55
-  - Reality-56
-  - Reality-57
-  - Reality-58
-  - Reality-59
-  - Reality-60
-  - Reality-61
-  - Reality-62
-  - Reality-63
-  - Reality-64
-  - Reality-65
-  - Reality-66
-  - Reality-67
-  - Reality-68
-  - Reality-69
-  - Reality-70
-  - Reality-71
-  - Reality-72
-  - Reality-73
-  - Reality-74
-  - Reality-75
-  - Reality-76
-  - Reality-77
-  - Reality-78
-  - Reality-79
-  - Reality-80
-  - Reality-81
-  - Reality-82
-  - Reality-83
-  - Reality-84
-  - Reality-85
-  - Reality-86
-  - Reality-87
-  - Reality-88
-  - Reality-89
-  - Reality-90
-  - Reality-91
-  - Reality-92
-  - Reality-93
-  - Reality-94
-  - Reality-95
-  - Reality-96
-  - Reality-97
-  - Reality-98
-  - Reality-99
+  - Reality-000
+  - Reality-001
+  - Reality-002
+  - Reality-003
+  - Reality-004
+  - Reality-005
+  - Reality-006
+  - Reality-007
+  - Reality-009
+  - Reality-010
+  - Reality-011
+  - Reality-012
+  - Reality-013
+  - Reality-014
+  - Reality-015
+  - Reality-016
+  - Reality-017
+  - Reality-018
+  - Reality-019
+  - Reality-020
+  - Reality-021
+  - Reality-022
+  - Reality-023
+  - Reality-024
+  - Reality-025
+  - Reality-026
+  - Reality-027
+  - Reality-028
+  - Reality-029
+  - Reality-030
+  - Reality-031
+  - Reality-032
+  - Reality-033
+  - Reality-034
+  - Reality-035
+  - Reality-036
+  - Reality-037
+  - Reality-038
+  - Reality-039
+  - Reality-040
+  - Reality-041
+  - Reality-042
+  - Reality-043
+  - Reality-044
+  - Reality-045
+  - Reality-046
+  - Reality-047
+  - Reality-049
+  - Reality-050
+  - Reality-051
+  - Reality-052
+  - Reality-053
+  - Reality-054
+  - Reality-055
+  - Reality-056
+  - Reality-057
+  - Reality-058
+  - Reality-059
+  - Reality-060
+  - Reality-061
+  - Reality-062
+  - Reality-063
+  - Reality-064
+  - Reality-065
+  - Reality-066
+  - Reality-067
+  - Reality-069
+  - Reality-070
+  - Reality-071
+  - Reality-072
+  - Reality-073
+  - Reality-074
+  - Reality-075
+  - Reality-076
+  - Reality-077
+  - Reality-078
+  - Reality-079
+  - Reality-080
+  - Reality-081
+  - Reality-082
+  - Reality-083
+  - Reality-084
+  - Reality-085
+  - Reality-086
+  - Reality-087
+  - Reality-088
+  - Reality-089
+  - Reality-090
+  - Reality-091
+  - Reality-092
+  - Reality-093
+  - Reality-095
+  - Reality-096
+  - Reality-097
+  - Reality-099
   - Reality-100
   - Reality-101
   - Reality-102
   - Reality-103
   - Reality-104
-  - Reality-105
   - Reality-106
   - Reality-107
   - Reality-108
@@ -3091,7 +2668,6 @@ proxy-groups:
   - Reality-113
   - Reality-114
   - Reality-115
-  - Reality-116
   - Reality-117
   - Reality-118
   - Reality-119
@@ -3100,7 +2676,6 @@ proxy-groups:
   - Reality-123
   - Reality-124
   - Reality-125
-  - Reality-126
   - Reality-127
   - Reality-128
   - Reality-129
@@ -3123,7 +2698,6 @@ proxy-groups:
   - Reality-146
   - Reality-147
   - Reality-148
-  - Reality-149
   - Reality-150
   - Reality-151
   - Reality-152
@@ -3153,152 +2727,116 @@ proxy-groups:
   - Reality-176
   - Reality-177
   - Reality-178
-  - Reality-179
   - Reality-180
   - Reality-181
   - Reality-182
   - Reality-183
-  - Reality-184
-  - Reality-185
-  - Reality-186
-  - Reality-187
-  - Reality-188
-  - Reality-189
-  - Reality-190
-  - Reality-191
-  - Reality-192
-  - Reality-193
-  - Reality-194
-  - Reality-195
-  - Reality-196
-  - Reality-197
-  - Reality-198
-  - Reality-199
-  - Reality-200
-  - Reality-201
-  - Reality-202
-  - Reality-203
-  - Reality-204
-  - Reality-205
-  - Reality-206
-  - Reality-207
-  - Reality-208
-  - Reality-209
-  - Reality-210
-  - Reality-211
-  - Reality-212
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动切换
   type: select
   proxies:
   - 自动选择
-  - Reality-0
-  - Reality-1
-  - Reality-2
-  - Reality-3
-  - Reality-4
-  - Reality-5
-  - Reality-6
-  - Reality-7
-  - Reality-8
-  - Reality-9
-  - Reality-10
-  - Reality-11
-  - Reality-12
-  - Reality-13
-  - Reality-14
-  - Reality-15
-  - Reality-16
-  - Reality-17
-  - Reality-18
-  - Reality-19
-  - Reality-20
-  - Reality-21
-  - Reality-22
-  - Reality-23
-  - Reality-24
-  - Reality-25
-  - Reality-26
-  - Reality-27
-  - Reality-28
-  - Reality-29
-  - Reality-30
-  - Reality-31
-  - Reality-32
-  - Reality-33
-  - Reality-34
-  - Reality-35
-  - Reality-36
-  - Reality-37
-  - Reality-38
-  - Reality-39
-  - Reality-40
-  - Reality-41
-  - Reality-42
-  - Reality-43
-  - Reality-44
-  - Reality-45
-  - Reality-46
-  - Reality-47
-  - Reality-48
-  - Reality-49
-  - Reality-50
-  - Reality-51
-  - Reality-52
-  - Reality-53
-  - Reality-54
-  - Reality-55
-  - Reality-56
-  - Reality-57
-  - Reality-58
-  - Reality-59
-  - Reality-60
-  - Reality-61
-  - Reality-62
-  - Reality-63
-  - Reality-64
-  - Reality-65
-  - Reality-66
-  - Reality-67
-  - Reality-68
-  - Reality-69
-  - Reality-70
-  - Reality-71
-  - Reality-72
-  - Reality-73
-  - Reality-74
-  - Reality-75
-  - Reality-76
-  - Reality-77
-  - Reality-78
-  - Reality-79
-  - Reality-80
-  - Reality-81
-  - Reality-82
-  - Reality-83
-  - Reality-84
-  - Reality-85
-  - Reality-86
-  - Reality-87
-  - Reality-88
-  - Reality-89
-  - Reality-90
-  - Reality-91
-  - Reality-92
-  - Reality-93
-  - Reality-94
-  - Reality-95
-  - Reality-96
-  - Reality-97
-  - Reality-98
-  - Reality-99
+  - Reality-000
+  - Reality-001
+  - Reality-002
+  - Reality-003
+  - Reality-004
+  - Reality-005
+  - Reality-006
+  - Reality-007
+  - Reality-009
+  - Reality-010
+  - Reality-011
+  - Reality-012
+  - Reality-013
+  - Reality-014
+  - Reality-015
+  - Reality-016
+  - Reality-017
+  - Reality-018
+  - Reality-019
+  - Reality-020
+  - Reality-021
+  - Reality-022
+  - Reality-023
+  - Reality-024
+  - Reality-025
+  - Reality-026
+  - Reality-027
+  - Reality-028
+  - Reality-029
+  - Reality-030
+  - Reality-031
+  - Reality-032
+  - Reality-033
+  - Reality-034
+  - Reality-035
+  - Reality-036
+  - Reality-037
+  - Reality-038
+  - Reality-039
+  - Reality-040
+  - Reality-041
+  - Reality-042
+  - Reality-043
+  - Reality-044
+  - Reality-045
+  - Reality-046
+  - Reality-047
+  - Reality-049
+  - Reality-050
+  - Reality-051
+  - Reality-052
+  - Reality-053
+  - Reality-054
+  - Reality-055
+  - Reality-056
+  - Reality-057
+  - Reality-058
+  - Reality-059
+  - Reality-060
+  - Reality-061
+  - Reality-062
+  - Reality-063
+  - Reality-064
+  - Reality-065
+  - Reality-066
+  - Reality-067
+  - Reality-069
+  - Reality-070
+  - Reality-071
+  - Reality-072
+  - Reality-073
+  - Reality-074
+  - Reality-075
+  - Reality-076
+  - Reality-077
+  - Reality-078
+  - Reality-079
+  - Reality-080
+  - Reality-081
+  - Reality-082
+  - Reality-083
+  - Reality-084
+  - Reality-085
+  - Reality-086
+  - Reality-087
+  - Reality-088
+  - Reality-089
+  - Reality-090
+  - Reality-091
+  - Reality-092
+  - Reality-093
+  - Reality-095
+  - Reality-096
+  - Reality-097
+  - Reality-099
   - Reality-100
   - Reality-101
   - Reality-102
   - Reality-103
   - Reality-104
-  - Reality-105
   - Reality-106
   - Reality-107
   - Reality-108
@@ -3309,7 +2847,6 @@ proxy-groups:
   - Reality-113
   - Reality-114
   - Reality-115
-  - Reality-116
   - Reality-117
   - Reality-118
   - Reality-119
@@ -3318,7 +2855,6 @@ proxy-groups:
   - Reality-123
   - Reality-124
   - Reality-125
-  - Reality-126
   - Reality-127
   - Reality-128
   - Reality-129
@@ -3341,7 +2877,6 @@ proxy-groups:
   - Reality-146
   - Reality-147
   - Reality-148
-  - Reality-149
   - Reality-150
   - Reality-151
   - Reality-152
@@ -3371,39 +2906,9 @@ proxy-groups:
   - Reality-176
   - Reality-177
   - Reality-178
-  - Reality-179
   - Reality-180
   - Reality-181
   - Reality-182
   - Reality-183
-  - Reality-184
-  - Reality-185
-  - Reality-186
-  - Reality-187
-  - Reality-188
-  - Reality-189
-  - Reality-190
-  - Reality-191
-  - Reality-192
-  - Reality-193
-  - Reality-194
-  - Reality-195
-  - Reality-196
-  - Reality-197
-  - Reality-198
-  - Reality-199
-  - Reality-200
-  - Reality-201
-  - Reality-202
-  - Reality-203
-  - Reality-204
-  - Reality-205
-  - Reality-206
-  - Reality-207
-  - Reality-208
-  - Reality-209
-  - Reality-210
-  - Reality-211
-  - Reality-212
 rules:
 - MATCH,自动选择
