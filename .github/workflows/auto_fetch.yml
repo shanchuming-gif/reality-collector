@@ -9,8 +9,8 @@ jobs:
   update-nodes:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # 开启写入权限以生成 output.txt
-    
+      contents: write     # 开启写入权限
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -30,6 +30,7 @@ jobs:
         run: |
           git config --global user.name "Logic-Bot"
           git config --global user.email "bot@github.com"
-          git add output.txt
+          # 修正：同时添加文本列表和 Clash 配置文件
+          git add output.txt clash_config.yaml
           git commit -m "Auto-update nodes [$(date)]" || exit 0
           git push
