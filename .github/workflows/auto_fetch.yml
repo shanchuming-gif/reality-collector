@@ -2,14 +2,14 @@ name: Node-Auto-Update
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # 逻辑循环：每4小时自动运行一次
+    - cron: '0 */3 * * *' # 逻辑循环：每3小时自动运行一次，提高新鲜度
   workflow_dispatch:      # 允许手动触发
 
 jobs:
   update-nodes:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # 开启写入权限
+      contents: write     # 开启写入权限，确保能推送到仓库
 
     steps:
       - name: Checkout Code
@@ -23,14 +23,20 @@ jobs:
       - name: Install Dependencies
         run: pip install requests pyyaml
 
-      - name: Run Extraction
-        run: python main.py
+      - name: Run Extraction with Retry
+        # 物理容错逻辑：失败后自动重试
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 5     # 脚本运行超过 5 分钟则强制停止
+          max_attempts: 3        # 如果失败，最多重试 3 次
+          retry_wait_seconds: 60 # 每次失败后等待 60 秒再试，避开网络高峰
+          command: python main.py
 
       - name: Push Result
         run: |
           git config --global user.name "Logic-Bot"
           git config --global user.email "bot@github.com"
-          # 修正：同时添加文本列表和 Clash 配置文件
+          # 将体检后的两个核心产物同步到 GitHub 仓库
           git add output.txt clash_config.yaml
           git commit -m "Auto-update nodes [$(date)]" || exit 0
           git push
